@@ -36,7 +36,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : Cierra-Runis
-  url       :
+  url       : https://cierra-runis.github.io/Blog114514.github.io/
   avatar    : # path or url of avatar image (square)
   bio       : 
   email     : 2864283875@qq.com
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,11 +127,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : ba02cd90c08e3454aeb7 # GitHub Application Client ID
+    clientSecret: bde26f3281dfa2e2f52d8540b1b2e7ddcc3a918e # GitHub Application Client Secret
+    repository  : Blog114514.github.io # GitHub repo
+    owner       : Cierra-Runis # GitHub repo owner
+    admin: Cierra-Runis # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
