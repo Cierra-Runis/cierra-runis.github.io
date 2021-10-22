@@ -115,7 +115,7 @@ comments:
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
     clientID: ba02cd90c08e3454aeb7 # GitHub Application Client ID
-    clientSecret: bde26f3281dfa2e2f52d8540b1b2e7ddcc3a918e # GitHub Application Client Secret
+    clientSecret: 45cbb1479e652222d839103680cba83bdfdbfecd # GitHub Application Client Secret
     repository: cierra-runis.github.io # GitHub repo
     owner: cierra-runis # GitHub repo owner
     admin:
