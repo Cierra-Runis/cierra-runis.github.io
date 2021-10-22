@@ -119,7 +119,7 @@ comments:
     repository: cierra-runis.github.io # GitHub repo
     owner: cierra-runis # GitHub repo owner
     admin:
-      cierra-runis # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      - cierra-runis # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
