@@ -31,7 +31,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type: # "person" (default), "organization"
   name: Cierra-Runis
-  url: https://cierra-runis.github.io/Blog114514.github.io/
+  url: https://cierra-runis.github.io/
   avatar: # path or url of avatar image (square)
   bio:
   email: 2864283875@qq.com
