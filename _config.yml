@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +105,82 @@ deploy:
   type: git
   repo: https://github.com/Cierra-Runis/cierra-runis.github.io
   branch: gh-pages
+
+# abbrlink config
+abbrlink:
+  alg: crc16 #support crc16(default) and crc32
+  rep: dec #support dec(default) and hex
+
+# 搜索
+search:
+  path: search.xml
+  field: all
+  content: true
+
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: false
+
+# https://github.com/hexojs/hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+rss: /atom.xml
+
+# Extensions
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-sitemap
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  path:
+  vmid: 174892451
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extra_options:
+    key: value
+
+# markdown
+markdown:
+  plugins:
+    - plugin:
+      name: "@neilsustc/markdown-it-katex"
+      options:
+        strict: false
+
+# electric_clock
+# see https://anzhiy.cn/posts/fc18.html
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+  # - /posts/
+  # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: a13fc8e191d14cc0930bc07c6660d900
+  gaud_map_key: eb5254d31736ca5298ad4d68fae76c09
+  default_rectangle: false # 开启后将一直显示 rectangle 位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 116.388056,39.90750 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
