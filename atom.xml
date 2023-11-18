@@ -178,8 +178,6 @@
     
     
     
-    <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="markdown" scheme="https://note-of-me.top/tags/markdown/"/>
     
     <category term="Obsidian" scheme="https://note-of-me.top/tags/Obsidian/"/>
@@ -193,6 +191,8 @@
     <category term="MaterialFiles" scheme="https://note-of-me.top/tags/MaterialFiles/"/>
     
     <category term="FolderSync" scheme="https://note-of-me.top/tags/FolderSync/"/>
+    
+    <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -214,11 +214,11 @@
     
     
     
-    <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="编程" scheme="https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
+    
+    <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
