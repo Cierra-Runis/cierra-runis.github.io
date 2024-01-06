@@ -11,7 +11,6 @@ nav:
 menu:
   主页: / || fas fa-home
   归档: /archives/ || fas fa-archive
-  追番列表: /bangumis/ || fas fa-video
   友链: /link/ || fa-solid fa-heart
   Flutter: /flutter/ || fas fa-laptop-code
 
@@ -432,8 +431,8 @@ livere:
 # https://github.com/gitalk/gitalk
 gitalk:
   client_id: ba02cd90c08e3454aeb7
-  client_secret: 45cbb1479e652222d839103680cba83bdfdbfecd
-  repo: cierra-runis.github.io
+  client_secret: 8d6a2b8be614c8af5116f973fe4c15721117a66a
+  repo: https://note-of-me.top/
   owner: cierra-runis
   admin: cierra-runis
   option:

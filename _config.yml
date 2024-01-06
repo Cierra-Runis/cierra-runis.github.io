@@ -90,8 +90,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+include: []
+exclude: []
 ignore:
 
 # Extensions
@@ -137,24 +137,6 @@ plugins:
   - hexo-generator-feed
   - hexo-generator-sitemap
 
-# 追番插件
-# https://github.com/HCLonely/hexo-bilibili-bangumi
-bangumi: # 追番设置
-  enable: true
-  path:
-  vmid: 174892451
-  title: "追番列表"
-  quote: "生命不息，追番不止！"
-  show: 1
-  lazyload: false
-  loading:
-  metaColor:
-  color:
-  webp:
-  progress:
-  extra_options:
-    key: value
-
 # markdown
 markdown:
   plugins:
@@ -176,11 +158,11 @@ electric_clock:
     type: class
     name: sticky_layout
     index: 0
-  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif # 加载动画自定义
   clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
   clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
   ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
-  qweather_key: a13fc8e191d14cc0930bc07c6660d900
-  gaud_map_key: eb5254d31736ca5298ad4d68fae76c09
-  default_rectangle: false # 开启后将一直显示 rectangle 位置的天气，否则将获取访问者的地理位置与天气
-  rectangle: 116.388056,39.90750 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
+  qweather_key: 34ae52130caa43c789de37ca73c9e6eb
+  gaud_map_key: 83bb3355fb4627168dece22f4e3ac928
+  default_rectangle: true # 开启后将一直显示 rectangle 位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 116.388056,39.90750 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启 default_rectangle 后的位置
