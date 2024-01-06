@@ -432,7 +432,7 @@ livere:
 gitalk:
   client_id: ba02cd90c08e3454aeb7
   client_secret: 8d6a2b8be614c8af5116f973fe4c15721117a66a
-  repo: https://note-of-me.top/
+  repo: cierra-runis.github.io
   owner: cierra-runis
   admin: cierra-runis
   option:
