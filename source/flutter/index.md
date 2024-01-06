@@ -7,7 +7,7 @@ date: 2023-09-21 13:21:33
 
 |      Flutter 包名       |                     Demo 演示                      |                                              GitHub 仓库                                              |                           Pub 仓库                           |
 | :---------------------: | :------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | :----------------------------------------------------------: |
-|      based_avatar       |  [点此跳转](https://note-of-me.top/based_widget/)  |      [点此跳转](https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar)       |                                                              |
+|      based_avatar       |  [点此跳转](https://note-of-me.top/based_widget/)  |      [点此跳转](https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar)       |      [点此跳转](https://pub.dev/packages/based_avatar)       |
 | based_battery_indicator |  [点此跳转](https://note-of-me.top/based_widget/)  | [点此跳转](https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_battery_indicator) | [点此跳转](https://pub.dev/packages/based_battery_indicator) |
 |   based_dock_scaffold   |  [点此跳转](https://note-of-me.top/based_widget/)  |   [点此跳转](https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_dock_scaffold)   |   [点此跳转](https://pub.dev/packages/based_dock_scaffold)   |
 |       based_list        |  [点此跳转](https://note-of-me.top/based_widget/)  |      [点此跳转](https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_widget)       |       [点此跳转](https://pub.dev/packages/based_list)        |

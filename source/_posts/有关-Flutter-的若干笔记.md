@@ -15,25 +15,19 @@ cover: img/有关-Flutter-的若干笔记/cover.png
 
 在此记录些常用资料：
 
-> [官方网站](https://flutter.dev/)
->
-> [官方英文文档](https://docs.flutter.dev/)
->
-> [官方中文文档](https://flutter.cn/docs)
->
-> [官方 Package 站](https://pub.dev/)
->
-> [Flutter 实战（第二版）](https://book.flutterchina.club/)
->
-> [Json to Dart](https://jsond.bytex.space/)
->
-> [Flutter 最佳实践和编码准则](https://ducafecat.com/blog/flutter-best-practices-and-coding-guidelines)
->
-> [iPad 大屏 & Flutter 多引擎适配之路](https://zhuanlan.zhihu.com/p/589939547)
+|                      文档                       |                                                 文章                                                  |
+| :---------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+|        [官方网站](https://flutter.dev/)         | [Flutter 最佳实践和编码准则](https://ducafecat.com/blog/flutter-best-practices-and-coding-guidelines) |
+|    [官方英文文档](https://docs.flutter.dev/)    |             [iPad 大屏 & Flutter 多引擎适配之路](https://zhuanlan.zhihu.com/p/589939547)              |
+|     [官方中文文档](https://flutter.cn/docs)     |              [详解 android:elevation 的使用](https://www.python100.com/html/91048.html)               |
+|       [官方 Package 站](https://pub.dev/)       |       [Flutter elevation 属性名称的含义](https://blog.csdn.net/gaoyp/article/details/123126394)       |
+| [Flutter 实战](https://book.flutterchina.club/) |               [Android 中 elevation 的设置方法](https://www.jianshu.com/p/09959db18a4b)               |
 
-## Flutter 包
-
-[图片缓存](https://pub.dev/packages/cached_network_image)
+|                    工具                    |                             包                              |
+| :----------------------------------------: | :---------------------------------------------------------: |
+| [Json to Dart](https://jsond.bytex.space/) |  [图片缓存](https://pub.dev/packages/cached_network_image)  |
+|                                            | [BasedWidget](https://github.com/Cierra-Runis/based_widget) |
+|                                            |  [QWeatherIcons](https://pub.dev/packages/qweather_icons)   |
 
 ## 使用 index.dart 文件简化导入
 
@@ -121,12 +115,6 @@ export 'package:dart_date/dart_date.dart' hide Interval; // 日期工具
 export 'package:flutter_quill/flutter_quill.dart' hide Text; // 富文本
 ```
 
-## 感想
-
-- `Flutter` 的使用非常简单，上手也快，非常有意思
-
-- 自己用 `Flutter` 写了很多项目，这里来个 `Mercurius` 日记软件的 [仓库链接](https://github.com/Cierra-Runis/mercurius)
-
 ## 版本号构建问题
 
 `Flutter` 使用 `android/app/build.gradle` 来打包 `apk`, 且其引入了 `flutter.gradle` 并指向 `flutter.groovy` 如 `D:\Flutter\packages\flutter_tools\gradle\src\main\groovy\flutter.groovy`
@@ -191,10 +179,6 @@ AlertDialog(
   actions: (...),
 );
 ```
-
-## 外部包
-
-目前使用自己所写的 [QWeatherIcons](https://pub.dev/packages/qweather_icons) 的图标包，以及 [BasedList](https://pub.dev/packages/based_list) 布局包
 
 ## ard 语法
 
@@ -324,3 +308,9 @@ AlertDialog(
        }
    }
    ```
+
+## 感想
+
+- `Flutter` 的使用非常简单，上手也快，非常有意思
+
+- 自己用 `Flutter` 写了很多项目，这里来个 `Mercurius` 日记软件的 [仓库链接](https://github.com/Cierra-Runis/mercurius)
