@@ -192,9 +192,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Flutter </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> Flutter </tag>
             
         </tags>
       
@@ -239,22 +239,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<table><thead><tr><th align="center">头像</th><th align="center">链接</th></tr></thead><tbody><tr><td align="center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td align="center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th align="center">头像</th><th align="center">链接</th></tr></thead><tbody><tr><td align="center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td align="center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
