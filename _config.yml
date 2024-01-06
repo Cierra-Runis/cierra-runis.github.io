@@ -164,5 +164,5 @@ electric_clock:
   ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
   qweather_key: 34ae52130caa43c789de37ca73c9e6eb
   gaud_map_key: 83bb3355fb4627168dece22f4e3ac928
-  default_rectangle: true # 开启后将一直显示 rectangle 位置的天气，否则将获取访问者的地理位置与天气
+  default_rectangle: false # 开启后将一直显示 rectangle 位置的天气，否则将获取访问者的地理位置与天气
   rectangle: 116.388056,39.90750 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启 default_rectangle 后的位置
