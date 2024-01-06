@@ -26,6 +26,14 @@ cover: img/有关-Flutter-的若干笔记/cover.png
 > [Flutter 实战（第二版）](https://book.flutterchina.club/)
 >
 > [Json to Dart](https://jsond.bytex.space/)
+>
+> [Flutter 最佳实践和编码准则](https://ducafecat.com/blog/flutter-best-practices-and-coding-guidelines)
+>
+> [iPad 大屏 & Flutter 多引擎适配之路](https://zhuanlan.zhihu.com/p/589939547)
+
+## Flutter 包
+
+[图片缓存](https://pub.dev/packages/cached_network_image)
 
 ## 使用 index.dart 文件简化导入
 
@@ -120,48 +128,6 @@ export 'package:flutter_quill/flutter_quill.dart' hide Text; // 富文本
 - 自己用 `Flutter` 写了很多项目，这里来个 `Mercurius` 日记软件的 [仓库链接](https://github.com/Cierra-Runis/mercurius)
 
 ## 版本号构建问题
-
-### 旧版本解决办法
-
-简化自 [此链接](https://www.jianshu.com/p/5058eb7505d3)
-
-`Flutter` 使用 `android/app/build.gradle` 来打包 `apk`, 且其引入了 `flutter.gradle` 如 `D:/flutter/packages/flutter_tools/gradle/flutter.gradle`
-
-约在 `flutter.gradle` 的 `810` 行
-
-```js
-def addFlutterDeps = { variant ->
-    if (shouldSplitPerAbi()) {
-        variant.outputs.each { output ->
-            def abiVersionCode = ABI_VERSION.get(output.getFilter(OutputFile.ABI))
-            if (abiVersionCode != null) {
-                output.versionCodeOverride =
-                    abiVersionCode * 1000 + variant.versionCode
-            }
-        }
-    }
-    (...)
-}
-```
-
-我们知道 `flutter` 将判断是否使用了 `'split-per-abi'` 命令, 是则在 `ABI_VERSION` 选择一个版本 `*1000` 再加上构建号
-
-官方解释见 [此链接](https://developer.android.com/studio/build/configure-apk-splits)
-
-我们只需修改 `ABI_VERSION map` 如下
-
-```js
-private static final Map ABI_VERSION = [
-    (ARCH_ARM32)        : 0,
-    (ARCH_ARM64)        : 0,
-    (ARCH_X86)          : 0,
-    (ARCH_X86_64)       : 0,
-]
-```
-
-**_注意若进行了 `Flutter` 版本更新，应重新修改该 `flutter.groovy` 文件_**
-
-### 新版本解决方法
 
 `Flutter` 使用 `android/app/build.gradle` 来打包 `apk`, 且其引入了 `flutter.gradle` 并指向 `flutter.groovy` 如 `D:\Flutter\packages\flutter_tools\gradle\src\main\groovy\flutter.groovy`
 
