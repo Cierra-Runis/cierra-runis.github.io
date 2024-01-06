@@ -38,9 +38,6 @@ def build_module() -> None:
     print('> 清除旧构建')
     os.system('hexo clean')
 
-    print('> 获取最新 bangumi 资讯')
-    os.system('hexo bangumi -u')
-
     print('> 构建中')
     os.system('hexo generate')
 
@@ -54,9 +51,6 @@ def release_module() -> None:
     '''
     print('> 清除旧构建')
     os.system('hexo clean')
-
-    print('> 获取最新 bangumi 资讯')
-    os.system('hexo bangumi -u')
 
     print('> 构建中')
     os.system('hexo generate')
