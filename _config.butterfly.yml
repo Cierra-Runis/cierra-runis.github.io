@@ -431,10 +431,10 @@ livere:
 # https://github.com/gitalk/gitalk
 gitalk:
   client_id: ba02cd90c08e3454aeb7
-  client_secret: 8d6a2b8be614c8af5116f973fe4c15721117a66a
+  client_secret: 1fc851858e784467492155f2c3d2fb1771e466a7
   repo: cierra-runis.github.io
-  owner: cierra-runis
-  admin: cierra-runis
+  owner: Cierra-Runis
+  admin: Cierra-Runis
   option:
 
 # valine
