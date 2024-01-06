@@ -190,11 +190,11 @@
       
         <tags>
             
-            <tag> 编程 </tag>
-            
             <tag> 笔记 </tag>
             
             <tag> Flutter </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
@@ -203,6 +203,17 @@
     
   
   
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
     
     
     <entry>
@@ -231,17 +242,6 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
