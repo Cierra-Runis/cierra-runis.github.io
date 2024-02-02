@@ -11,7 +11,7 @@ tags:
   - 笔记
 abbrlink: 2308
 date: 2023-01-02 23:58:49
-cover: https://bu.dusays.com/2023/01/03/63b412d4497aa.png
+cover: img/云盘同步及-Obsidian-相关/cover.png
 ---
 
 之前在某个直播间看到有人在用一个看起来又是很新的玩意写 `markdown` 于是非常好奇的下载了 `Obsidian` ，在看到官方的同步价格贵的一批之后在直播间里进行吐槽获得了能自搭同步的情报，于是进行一个 `iCloud` 的利用～

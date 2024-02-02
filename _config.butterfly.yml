@@ -82,12 +82,12 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://bu.dusays.com/2023/01/03/63b3e1a0db40f.jpg
+    - /img/default_cover.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  post_page: /img/404.png
 
 # A simple 404 page
 error_404:
@@ -635,7 +635,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://bu.dusays.com/2023/01/03/63b3e14e40db5.jpg)
+background: url(https://note-of-me.top/img/background.jpg)
 
 # Footer Background
 footer_bg: true
