@@ -4,7 +4,7 @@ tags:
   - 使用报告
 abbrlink: 23517
 date: 2024-03-28 13:52:05
-cover: img/Next-js-和-React-使用报告/cover.svg
+cover: img/Next-js-和-React-使用报告/cover.webp
 ---
 
 使用报告系列开新坑了，今天要谈的是 [Next.js](https://nextjs.org/docs) 14。为什么是 14 呢，因为我从 14 学的，别叫。
