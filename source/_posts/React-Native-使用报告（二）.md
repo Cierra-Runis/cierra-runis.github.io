@@ -5,6 +5,7 @@ tags:
   - 使用报告
 abbrlink: 56291
 date: 2024-03-28 13:41:56
+cover: img/React-Native-使用报告/cover.png
 ---
 
 被恶心到了，我要狠狠的吐槽。
