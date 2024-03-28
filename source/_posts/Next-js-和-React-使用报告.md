@@ -49,11 +49,11 @@ Next.js 是 React 的框架，所有为 React 开发的 UI 库都能在 Next.js 
 
 ## 五、状态管理和 Hook
 
-React 本身有带 [状态管理](https://react.dev/learn/passing-data-deeply-with-context) 和一些简单的 [Hooks](https://react.dev/reference/react/hooks)，因为我在学 Flutter 时对 Flutter 本身自带的、也是通过 `context` 向上查找根组件保存的状态的[状态管理](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html)，以及 [flutter_hooks](https://pub.dev/packages/flutter_hooks) 包里的 Hooks 有一些了解，或者说 Flutter 和 flutter_hooks 本身就从 React 学习了很多，我也就大致对 React 的状态管理和 Hooks 有了一些概念。
+React 本身有带 [状态管理](https://react.dev/learn/passing-data-deeply-with-context) 和一些简单的 [Hooks](https://react.dev/reference/react/hooks)，因为我在学 Flutter 时对 Flutter 本身自带的、也是通过 `context` 向上查找根组件保存的状态的 [状态管理](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html)，以及 [flutter_hooks](https://pub.dev/packages/flutter_hooks) 包里的 Hooks 有一些了解，或者说 Flutter 和 flutter_hooks 本身就从 React 学习了很多，我也就大致对 React 的状态管理和 Hooks 有了一些概念。
 
 具体深造还是得靠写项目的，原理可以不清楚，但总不可以不会用吗——虽然说面试可能也会问到就是了。
 
-和 Flutter 有社区的状态管理方案一样，React 也有其它的状态管理方案——[Redux](https://redux.js.org/)（实际上 Flutter 社区就有 [同名包](https://docs.flutter.dev/data-and-backend/state-mgmt/options#redux)），但我不会用。
+和 Flutter 有社区的状态管理方案一样，React 也有其它的状态管理方案 —— [Redux](https://redux.js.org/)（实际上 Flutter 社区就有 [同名包](https://docs.flutter.dev/data-and-backend/state-mgmt/options#redux)），但我不会用。
 
 而且据谢佬说这东西太复杂了，给我推荐了 [zustand](https://github.com/pmndrs/zustand)，到时候都学学看就是了。
 
