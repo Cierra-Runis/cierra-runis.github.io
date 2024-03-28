@@ -6,7 +6,7 @@
   <link href="https://note-of-me.top/atom.xml" rel="self"/>
   
   <link href="https://note-of-me.top/"/>
-  <updated>2024-03-28T06:22:10.612Z</updated>
+  <updated>2024-03-28T06:27:39.144Z</updated>
   <id>https://note-of-me.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://note-of-me.top/posts/23517/"/>
     <id>https://note-of-me.top/posts/23517/</id>
     <published>2024-03-28T05:52:05.000Z</published>
-    <updated>2024-03-28T06:22:10.612Z</updated>
+    <updated>2024-03-28T06:27:39.144Z</updated>
     
-    <content type="html"><![CDATA[<p>使用报告系列开新坑了，今天要谈的是 <a href="https://nextjs.org/docs">Next.js</a> 14。为什么是 14 呢，因为我从 14 学的，别叫。</p><p>先做个介绍吧，最新的 Next.js 官网上其称自己为“The React Framework for the Web”，记得之前有多加一个“专为生产环境”的头衔，总之，人家是框架，开发的方方面面都体贴的为你想到了。</p><p>对了，可能还要再介绍 <a href="https://react.dev/learn">React</a>，它自己介绍自己为“JavaScript library”，在我看来，它就是将原先命令式的 JavaScript 操作，改为了更加简约的声明式组件，提升了组件的复用性。</p><p>对，大学课程里教过我们使用 jQuery 来操作 HTML 元素，但这玩意怎么还没死啊？这不累死个人？这不老古董？</p><p>以及，React 操作的是 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction">DOM</a> 节点，通过 <code>Link</code> 组件，其能在“跳转页面”时不再真正跳转页面，而是根据新获取的信息更新当前页面，直观来说就是浏览器左上角不再出现转圈圈的刷新图标，使单页应用成为可能。</p><p>我是不是还要再解释一下什么是 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/SPA">单页应用</a>（？）。</p><h2 id="一、非常好路由"><a href="#一、非常好路由" class="headerlink" title="一、非常好路由"></a>一、非常好路由</h2><p>Next.js 一大好处就是基于文件系统的路由，它抹去了原 React 提供的注册路由的方案，以及其提供的动态路由。</p><p>具体的不细讲，但我应该说明一点，就是基本 React Native 也有基于文件系统的动态路由，我也不会喜欢 React Native，因为移动端是移动端，网页是网页，如果真喜欢网页这一套，那还不如真就 <code>WebView</code> 跑网页完事。</p><h2 id="二、组件设计"><a href="#二、组件设计" class="headerlink" title="二、组件设计"></a>二、组件设计</h2><p>Next.js 是 React 的框架，所有为 React 开发的 UI 库都能在 Next.js 里使用（不像某个 React Native（指指点点.jpg））。</p><p>之前和谢佬参赛时使用的是 <a href="https://mui.com/">MUI</a> 下的 <a href="https://mui.com/joy-ui/getting-started/">Joy UI</a>，但 React 的生态太广阔了，不局限于 Joy UI，自己转用了 <a href="https://nextui.org/docs/components/avatar">NextUI</a> 和 <a href="https://ant.design/components/overview-cn/">Ant Design</a>，前者和开发 Next.js 的 Vercel 公司没有任何关系，但 UI 看起来很像，后者则是蚂蚁集团开发的。</p><p>使用别人的组件基本上就按它们的文档来就行，它们提供的属性一般就足够了。</p><p>但我们还是有自己写点样式的，这里就不得不提到 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a> 了。</p><h2 id="三、组件的修改"><a href="#三、组件的修改" class="headerlink" title="三、组件的修改"></a>三、组件的修改</h2><p>内联样式如果使用 <code>style</code> 属性来配置，会变得极为冗长，TailwindCSS 能大大改善这点，并对响应式的支持更好——比如对界面大小的响应、暗黑模式的响应、打印状态的响应。</p><p>更不用说我不喜欢的外置 CSS 文件了。</p><h2 id="四、服务器组件和客户端组件"><a href="#四、服务器组件和客户端组件" class="headerlink" title="四、服务器组件和客户端组件"></a>四、服务器组件和客户端组件</h2><p>这我看过教程，但教程里的方法是 Next.js 14 之前的，我理解还是不太清楚，经常到了报错说要用 <code>&quot;use client&quot;</code> 时才反应过来。</p><p>这个还得再了解了解。</p><h2 id="五、状态管理和-Hook"><a href="#五、状态管理和-Hook" class="headerlink" title="五、状态管理和 Hook"></a>五、状态管理和 Hook</h2><p>React 本身有带 <a href="https://react.dev/learn/passing-data-deeply-with-context">状态管理</a> 和一些简单的 <a href="https://react.dev/reference/react/hooks">Hooks</a>，因为我在学 Flutter 时对 Flutter 本身自带的、也是通过 <code>context</code> 向上查找根组件保存的状态的<a href="https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html">状态管理</a>，以及 <a href="https://pub.dev/packages/flutter_hooks">flutter_hooks</a> 包里的 Hooks 有一些了解，或者说 Flutter 和 flutter_hooks 本身就从 React 学习了很多，我也就大致对 React 的状态管理和 Hooks 有了一些概念。</p><p>具体深造还是得靠写项目的，原理可以不清楚，但总不可以不会用吗——虽然说面试可能也会问到就是了。</p><p>和 Flutter 有社区的状态管理方案一样，React 也有其它的状态管理方案——<a href="https://redux.js.org/">Redux</a>（实际上 Flutter 社区就有 <a href="https://docs.flutter.dev/data-and-backend/state-mgmt/options#redux">同名包</a>），但我不会用。</p><p>而且据谢佬说这东西太复杂了，给我推荐了 <a href="https://github.com/pmndrs/zustand">zustand</a>，到时候都学学看就是了。</p><p>而 Hooks 方面，我不太理解 <code>useEffect</code> 是用来干什么的，感觉 <code>useState</code> 就足够了——我看 <code>useEffect</code> 的一个应用的网络请求，但我明显找到了一个更牛逼的 Hooks —— <a href="https://swr.vercel.app/zh-CN/docs/getting-started">useSWR</a>，其也是由  Next.js 背后的同一团队创建的。</p><p>真的非常有用这玩意，我甚至从它身上看到了 mercurius 的未来（指数据同步）。</p><p>六、总结</p><p>Next.js 和 React 的组合非常适合网页开发，可能之后学习 <a href="https://vuejs.org/">Vue</a> 的时候会再来一个它们间的对比，所以说本报告肯定会有第二期。</p>]]></content>
+    <content type="html"><![CDATA[<p>使用报告系列开新坑了，今天要谈的是 <a href="https://nextjs.org/docs">Next.js</a> 14。为什么是 14 呢，因为我从 14 学的，别叫。</p><p>先做个介绍吧，最新的 Next.js 官网上其称自己为“The React Framework for the Web”，记得之前有多加一个“专为生产环境”的头衔，总之，人家是框架，开发的方方面面都体贴的为你想到了。</p><p>对了，可能还要再介绍 <a href="https://react.dev/learn">React</a>，它自己介绍自己为“JavaScript library”，在我看来，它就是将原先命令式的 JavaScript 操作，改为了更加简约的声明式组件，提升了组件的复用性。</p><p>对，大学课程里教过我们使用 jQuery 来操作 HTML 元素，但这玩意怎么还没死啊？这不累死个人？这不老古董？</p><p>以及，React 操作的是 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction">DOM</a> 节点，通过 <code>Link</code> 组件，其能在“跳转页面”时不再真正跳转页面，而是根据新获取的信息更新当前页面，直观来说就是浏览器左上角不再出现转圈圈的刷新图标，使单页应用成为可能。</p><p>我是不是还要再解释一下什么是 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/SPA">单页应用</a>（？）。</p><h2 id="一、非常好路由"><a href="#一、非常好路由" class="headerlink" title="一、非常好路由"></a>一、非常好路由</h2><p>Next.js 一大好处就是基于文件系统的路由，它抹去了原 React 提供的注册路由的方案，以及其提供的动态路由。</p><p>具体的不细讲，但我应该说明一点，就是基本 React Native 也有基于文件系统的动态路由，我也不会喜欢 React Native，因为移动端是移动端，网页是网页，如果真喜欢网页这一套，那还不如真就 <code>WebView</code> 跑网页完事。</p><h2 id="二、组件设计"><a href="#二、组件设计" class="headerlink" title="二、组件设计"></a>二、组件设计</h2><p>Next.js 是 React 的框架，所有为 React 开发的 UI 库都能在 Next.js 里使用（不像某个 React Native（指指点点.jpg））。</p><p>之前和谢佬参赛时使用的是 <a href="https://mui.com/">MUI</a> 下的 <a href="https://mui.com/joy-ui/getting-started/">Joy UI</a>，但 React 的生态太广阔了，不局限于 Joy UI，自己转用了 <a href="https://nextui.org/docs/components/avatar">NextUI</a> 和 <a href="https://ant.design/components/overview-cn/">Ant Design</a>，前者和开发 Next.js 的 Vercel 公司没有任何关系，但 UI 看起来很像，后者则是蚂蚁集团开发的。</p><p>使用别人的组件基本上就按它们的文档来就行，它们提供的属性一般就足够了。</p><p>但我们还是有自己写点样式的，这里就不得不提到 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a> 了。</p><h2 id="三、组件的修改"><a href="#三、组件的修改" class="headerlink" title="三、组件的修改"></a>三、组件的修改</h2><p>内联样式如果使用 <code>style</code> 属性来配置，会变得极为冗长，TailwindCSS 能大大改善这点，并对响应式的支持更好——比如对界面大小的响应、暗黑模式的响应、打印状态的响应。</p><p>更不用说我不喜欢的外置 CSS 文件了。</p><h2 id="四、服务器组件和客户端组件"><a href="#四、服务器组件和客户端组件" class="headerlink" title="四、服务器组件和客户端组件"></a>四、服务器组件和客户端组件</h2><p>这我看过教程，但教程里的方法是 Next.js 14 之前的，我理解还是不太清楚，经常到了报错说要用 <code>&quot;use client&quot;</code> 时才反应过来。</p><p>这个还得再了解了解。</p><h2 id="五、状态管理和-Hook"><a href="#五、状态管理和-Hook" class="headerlink" title="五、状态管理和 Hook"></a>五、状态管理和 Hook</h2><p>React 本身有带 <a href="https://react.dev/learn/passing-data-deeply-with-context">状态管理</a> 和一些简单的 <a href="https://react.dev/reference/react/hooks">Hooks</a>，因为我在学 Flutter 时对 Flutter 本身自带的、也是通过 <code>context</code> 向上查找根组件保存的状态的 <a href="https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html">状态管理</a>，以及 <a href="https://pub.dev/packages/flutter_hooks">flutter_hooks</a> 包里的 Hooks 有一些了解，或者说 Flutter 和 flutter_hooks 本身就从 React 学习了很多，我也就大致对 React 的状态管理和 Hooks 有了一些概念。</p><p>具体深造还是得靠写项目的，原理可以不清楚，但总不可以不会用吗——虽然说面试可能也会问到就是了。</p><p>和 Flutter 有社区的状态管理方案一样，React 也有其它的状态管理方案 —— <a href="https://redux.js.org/">Redux</a>（实际上 Flutter 社区就有 <a href="https://docs.flutter.dev/data-and-backend/state-mgmt/options#redux">同名包</a>），但我不会用。</p><p>而且据谢佬说这东西太复杂了，给我推荐了 <a href="https://github.com/pmndrs/zustand">zustand</a>，到时候都学学看就是了。</p><p>而 Hooks 方面，我不太理解 <code>useEffect</code> 是用来干什么的，感觉 <code>useState</code> 就足够了——我看 <code>useEffect</code> 的一个应用的网络请求，但我明显找到了一个更牛逼的 Hooks —— <a href="https://swr.vercel.app/zh-CN/docs/getting-started">useSWR</a>，其也是由  Next.js 背后的同一团队创建的。</p><p>真的非常有用这玩意，我甚至从它身上看到了 mercurius 的未来（指数据同步）。</p><p>六、总结</p><p>Next.js 和 React 的组合非常适合网页开发，可能之后学习 <a href="https://vuejs.org/">Vue</a> 的时候会再来一个它们间的对比，所以说本报告肯定会有第二期。</p>]]></content>
     
     
       
@@ -59,9 +59,9 @@
     
     
     
-    <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
-    
     <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
+    
+    <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
   </entry>
   
@@ -129,11 +129,11 @@
     
     
     
+    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
+    
     <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
     <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
-    
-    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
     
   </entry>
   
