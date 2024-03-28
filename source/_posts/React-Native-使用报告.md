@@ -3,6 +3,7 @@ title: React Native 使用报告
 tags:
   - Flutter
   - React Native
+  - 使用报告
 abbrlink: 55296
 date: 2023-09-30 12:43:42
 cover: img/React-Native-使用报告/cover.png
@@ -81,5 +82,3 @@ cover: img/React-Native-使用报告/cover.png
 ## 我了解不够
 
 这里是我自己的一些问题，以上都是刚接触一天所体验到的，可能了解上面的一些问题也早都有了解决方案。
-
-但我这次是要比赛呀，没那么多时间了解了，这次还是选择 `Flutter` 要更好一些，希望在具体功能，而不是 `UI` 上，遇到的问题要更少一些。
