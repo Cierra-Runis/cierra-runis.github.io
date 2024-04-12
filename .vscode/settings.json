@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.ruby-lsp": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/public": true,
+    ".yarn": true,
+    "**/.deploy_git": true,
+    "db.json": true
+  },
+  "explorerExclude.backup": {}
+}
