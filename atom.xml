@@ -6,7 +6,7 @@
   <link href="https://note-of-me.top/atom.xml" rel="self"/>
   
   <link href="https://note-of-me.top/"/>
-  <updated>2024-04-29T13:55:57.125Z</updated>
+  <updated>2024-04-29T14:11:21.888Z</updated>
   <id>https://note-of-me.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>path_provider</title>
+    <link href="https://note-of-me.top/posts/42016/"/>
+    <id>https://note-of-me.top/posts/42016/</id>
+    <published>2024-04-29T14:10:46.000Z</published>
+    <updated>2024-04-29T14:11:21.888Z</updated>
+    
+    <content type="html"><![CDATA[<h3 align="center">  <a href="https://pub.dev/packages/path_provider#supported-platforms-and-paths">    <code>path_provider</code>  </a></h3><table><thead><tr><th align="center"><code>$&#123;name&#125; =&gt; app</code></th><th align="center"><code>$&#123;org&#125; =&gt; com.example</code></th><th align="center"><code>$&#123;package&#125; =&gt; $&#123;org&#125;.$&#123;name&#125;</code></th></tr></thead></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>Android</code> <code>..$0=&gt;/data/user/0; ..$1=&gt;/storage/emulate/0/Android/data</code></th><th align="center"><code>Windows</code> <code>...=&gt;C:\Users\$&#123;user&#125;</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/cache</code></td><td align="center">🌞 <code>...\AppData\Local\Temp</code></td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/files</code></td><td align="center">🌞 <code>...\AppData\Roaming\$&#123;org&#125;\$&#123;name&#125;</code></td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/app_flutter</code></td><td align="center">🌞 <code>...\Documents</code></td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/cache</code></td><td align="center">🌞 <code>...\AppData\Local\$&#123;org&#125;\$&#123;name&#125;</code></td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files/cache</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files/music</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌙</td><td align="center">🌞 <code>...\Downloads</code></td></tr></tbody></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>iOS</code> <code>...=&gt;?/data/Containers/Data/Application/$&#123;hash&#125;</code></th><th align="center"><code>macOS</code> <code>...=&gt;/Users/$&#123;user&#125;/Library/Containers/$&#123;package&#125;/Data</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞 <code>.../Library/Caches</code></td><td align="center">🌞 <code>.../Library/Caches</code></td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞 <code>.../Library/Application Support</code></td><td align="center">🌞 <code>.../Library/Application Support/$&#123;package&#125;</code></td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌞 <code>.../Library</code></td><td align="center">🌞 <code>.../Library</code></td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞 <code>.../Documents</code></td><td align="center">🌞 <code>.../Documents</code></td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞 <code>.../Library/Caches</code></td><td align="center">🌞 <code>.../Library/Caches/$&#123;package&#125;</code></td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌞 <code>.../Downloads</code></td><td align="center">🌞 <code>.../Downloads</code></td></tr></tbody></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>Linux</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌞</td></tr></tbody></table><p align="center">  <a href="https://github.com/Cierra-Runis">    <code>Sorted by Cierra_Runis</code>  </a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 align=&quot;center&quot;&gt;
+  &lt;a href=&quot;https://pub.dev/packages/path_provider#supported-platforms-and-paths&quot;&gt;
+    &lt;code&gt;path_provider&lt;/code&gt;
+  &lt;/a&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
+    
+    <category term="编程" scheme="https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Next.js 和 React 使用报告</title>
@@ -132,9 +162,9 @@
     
     <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
-    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
-    
     <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
+    
+    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
     
   </entry>
   
@@ -290,9 +320,9 @@
     
     <category term="笔记" scheme="https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="编程" scheme="https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/"/>
-    
     <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
+    
+    <category term="编程" scheme="https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   

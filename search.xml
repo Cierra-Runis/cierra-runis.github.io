@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>path_provider</title>
+      <link href="/posts/42016/"/>
+      <url>/posts/42016/</url>
+      
+        <content type="html"><![CDATA[<h3 align="center">  <a href="https://pub.dev/packages/path_provider#supported-platforms-and-paths">    <code>path_provider</code>  </a></h3><table><thead><tr><th align="center"><code>$&#123;name&#125; =&gt; app</code></th><th align="center"><code>$&#123;org&#125; =&gt; com.example</code></th><th align="center"><code>$&#123;package&#125; =&gt; $&#123;org&#125;.$&#123;name&#125;</code></th></tr></thead></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>Android</code> <code>..$0=&gt;/data/user/0; ..$1=&gt;/storage/emulate/0/Android/data</code></th><th align="center"><code>Windows</code> <code>...=&gt;C:\Users\$&#123;user&#125;</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/cache</code></td><td align="center">🌞 <code>...\AppData\Local\Temp</code></td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/files</code></td><td align="center">🌞 <code>...\AppData\Roaming\$&#123;org&#125;\$&#123;name&#125;</code></td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/app_flutter</code></td><td align="center">🌞 <code>...\Documents</code></td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞 <code>..$0/$&#123;org&#125;/cache</code></td><td align="center">🌞 <code>...\AppData\Local\$&#123;org&#125;\$&#123;name&#125;</code></td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files/cache</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌞 <code>..$1/$&#123;org&#125;/files/music</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌙</td><td align="center">🌞 <code>...\Downloads</code></td></tr></tbody></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>iOS</code> <code>...=&gt;?/data/Containers/Data/Application/$&#123;hash&#125;</code></th><th align="center"><code>macOS</code> <code>...=&gt;/Users/$&#123;user&#125;/Library/Containers/$&#123;package&#125;/Data</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞 <code>.../Library/Caches</code></td><td align="center">🌞 <code>.../Library/Caches</code></td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞 <code>.../Library/Application Support</code></td><td align="center">🌞 <code>.../Library/Application Support/$&#123;package&#125;</code></td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌞 <code>.../Library</code></td><td align="center">🌞 <code>.../Library</code></td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞 <code>.../Documents</code></td><td align="center">🌞 <code>.../Documents</code></td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞 <code>.../Library/Caches</code></td><td align="center">🌞 <code>.../Library/Caches/$&#123;package&#125;</code></td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌙</td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌞 <code>.../Downloads</code></td><td align="center">🌞 <code>.../Downloads</code></td></tr></tbody></table><table><thead><tr><th align="center"><code>Directory</code></th><th align="center"><code>Linux</code></th></tr></thead><tbody><tr><td align="center"><code>Temporary</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Support</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Library</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Application Documents</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>Application Cache</code></td><td align="center">🌞</td></tr><tr><td align="center"><code>External Storage</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Cache Directories</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>External Storage Directories</code></td><td align="center">🌙</td></tr><tr><td align="center"><code>Downloads</code></td><td align="center">🌞</td></tr></tbody></table><p align="center">  <a href="https://github.com/Cierra-Runis">    <code>Sorted by Cierra_Runis</code>  </a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Flutter </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Next.js 和 React 使用报告</title>
       <link href="/posts/23517/"/>
       <url>/posts/23517/</url>
@@ -94,9 +117,9 @@
             
             <tag> 使用报告 </tag>
             
-            <tag> React Native </tag>
-            
             <tag> Flutter </tag>
+            
+            <tag> React Native </tag>
             
         </tags>
       
@@ -234,9 +257,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> 编程 </tag>
-            
             <tag> Flutter </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
@@ -281,11 +304,11 @@
     
     
     <entry>
-      <title>zeus</title>
-      <link href="/zeus/index.html"/>
-      <url>/zeus/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://zeus-pi.vercel.app/">请点击继续</a></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -303,11 +326,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>zeus</title>
+      <link href="/zeus/index.html"/>
+      <url>/zeus/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><a href="https://zeus-pi.vercel.app/">请点击继续</a></p>]]></content>
       
     </entry>
     
