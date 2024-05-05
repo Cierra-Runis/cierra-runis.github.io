@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>更好的排版</title>
+      <link href="/posts/64096/"/>
+      <url>/posts/64096/</url>
+      
+        <content type="html"><![CDATA[<p>自写日记开始，自己就越来越注重文字排版。</p><p>我是希望自己编写出来的东西是被精心设计过的，被别人看到时别人会感到舒适的。</p><p>除了之前所谈的“注意语病”外，现在多加的习性则是：</p><h2 id="不再过分使用括号"><a href="#不再过分使用括号" class="headerlink" title="不再过分使用括号"></a>不再过分使用括号</h2><p>括号一层一层嵌套会使得意思极其“扭曲”，理解起来需要绕弯子，同时存在一堆右括号连在一起的情况，这很不美观。特别是如果存在括号内多重括号完后接下句，其所指的前文是很难很快找到的。</p><p>更好的做法当然是尽可能不使用括号，将想要表达的内容尽可能展开（flatten）来，出现跳跃性的句子可以使用破折号。</p><h2 id="中英文混排时添加空格"><a href="#中英文混排时添加空格" class="headerlink" title="中英文混排时添加空格"></a>中英文混排时添加空格</h2><p>在绝大多数情况下，在半角字符和全角字符直接加入空格就能给人一种文章没那么挤的感受。</p><p>比如接下来的这句话：</p><blockquote><p>我喜欢吃 apple，不喜欢吃 peach 和 orange。</p></blockquote><p>加入空格：</p><blockquote><p>我喜欢吃 apple ，不喜欢吃 peach 和 orange 。</p></blockquote><p>这里在每个单词左右两边都加了空格。</p><p>但这里实际上 apple 和 orange 后面由于接续的是一个全角的标点符号，且这个标点符号视觉上可以看作一个半角符号和一个空格，所以我们可以把后面的空格删去。</p><blockquote><p>我喜欢吃 apple，不喜欢吃 peach 和 orange。</p></blockquote><p>但像“——”“……”这种会占满整个宽度的标点符号，我是建议加上空格的。</p><p>除此之外，还有计量单位的事。</p><p>1 kg，1 m，1 s。在数字和单位之间需要空格——这实际上就是英文排版要求——而类似 100%，百（千）分号不需要。</p><p>当然，你说类似 4G（第四代移动通信技术）这样的词，它本身是一个专业名词，所以之间不需要空格，但 4 G 确实可以表示类似“4 克”“4 金币”的意思，所以这就得看上下文了。</p><p>同时说说苹果在这方面的细节，他们会如上细微调整半角和全角字符之间的间隔（kerning），看上去和加了空格差不多，反而因为自己加了空格可能会显得间隔过大。</p><p>但考虑到不是所有的设备都有这样的特性，自己加上空格还是更普适的。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>path_provider</title>
       <link href="/posts/42016/"/>
       <url>/posts/42016/</url>
@@ -293,28 +306,6 @@
     
     
     <entry>
-      <title>Flutter</title>
-      <link href="/flutter/index.html"/>
-      <url>/flutter/index.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://pub.dev/static/hash-tihrt5d6/img/pub-dev-logo.svg" alt="pub-logo"></p><table><thead><tr><th align="center">Flutter 包名</th><th align="center">Demo 演示</th><th align="center">GitHub 仓库</th><th align="center">Pub 仓库</th></tr></thead><tbody><tr><td align="center">based_avatar</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_avatar">点此跳转</a></td></tr><tr><td align="center">based_battery_indicator</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_battery_indicator">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_battery_indicator">点此跳转</a></td></tr><tr><td align="center">based_dock_scaffold</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_dock_scaffold">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_dock_scaffold">点此跳转</a></td></tr><tr><td align="center">based_list</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_widget">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_list">点此跳转</a></td></tr><tr><td align="center">based_qr</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_qr">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_qr">点此跳转</a></td></tr><tr><td align="center">based_splash_page</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_splash_page">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_splash_page">点此跳转</a></td></tr><tr><td align="center">based_split_view</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_split_view">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_split_view">点此跳转</a></td></tr><tr><td align="center">qweather_icons</td><td align="center"><a href="https://note-of-me.top/qweather_icons/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/qweather_icons">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/qweather_icons">点此跳转</a></td></tr></tbody></table>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -331,6 +322,28 @@
       <url>/zeus/index.html</url>
       
         <content type="html"><![CDATA[<p><a href="https://zeus-pi.vercel.app/">请点击继续</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Flutter</title>
+      <link href="/flutter/index.html"/>
+      <url>/flutter/index.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pub.dev/static/hash-tihrt5d6/img/pub-dev-logo.svg" alt="pub-logo"></p><table><thead><tr><th align="center">Flutter 包名</th><th align="center">Demo 演示</th><th align="center">GitHub 仓库</th><th align="center">Pub 仓库</th></tr></thead><tbody><tr><td align="center">based_avatar</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_avatar">点此跳转</a></td></tr><tr><td align="center">based_battery_indicator</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_battery_indicator">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_battery_indicator">点此跳转</a></td></tr><tr><td align="center">based_dock_scaffold</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_dock_scaffold">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_dock_scaffold">点此跳转</a></td></tr><tr><td align="center">based_list</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_widget">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_list">点此跳转</a></td></tr><tr><td align="center">based_qr</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_qr">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_qr">点此跳转</a></td></tr><tr><td align="center">based_splash_page</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_splash_page">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_splash_page">点此跳转</a></td></tr><tr><td align="center">based_split_view</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_split_view">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_split_view">点此跳转</a></td></tr><tr><td align="center">qweather_icons</td><td align="center"><a href="https://note-of-me.top/qweather_icons/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/qweather_icons">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/qweather_icons">点此跳转</a></td></tr></tbody></table>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
