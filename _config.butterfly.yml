@@ -29,7 +29,7 @@ code_word_wrap: true
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Cierra-Runis || Github
-  fas fa-envelope: mailto:byrdsaron@gmail.com || 邮箱
+  fas fa-envelope: mailto://byrdsaron@gmail.com || 邮箱
 
 # Image (圖片設置)
 # --------------------------------------
@@ -40,7 +40,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://avatars.githubusercontent.com/u/29329988
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -92,8 +92,8 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "Page Not Found"
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  subtitle: 'Page Not Found'
+  background: https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/ResponseCode/404%20NotFound.png?raw=true
 
 post_meta:
   page: # Home Page
@@ -294,9 +294,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: "繁"
+  msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: "簡"
+  msgToSimplifiedChinese: '簡'
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -603,21 +603,21 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#FF8000"
-  paginator: "#FF8000"
-  button_hover: "#FF8000"
-  text_selection: "#FF8000CF"
-  link_color: "#FF8000"
-  meta_color: "#FF8000"
-  hr_color: "#FF8000"
-  code_foreground: "#ad80ff"
-  code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#FF8000"
-  blockquote_padding_color: "#FF8000"
-  blockquote_background_color: "#FF8000"
-  scrollbar_color: "#FF8000"
-  meta_theme_color_light: "ffffff"
-  meta_theme_color_dark: "#0d0d0d"
+  main: '#FF8000'
+  paginator: '#FF8000'
+  button_hover: '#FF8000'
+  text_selection: '#FF8000CF'
+  link_color: '#FF8000'
+  meta_color: '#FF8000'
+  hr_color: '#FF8000'
+  code_foreground: '#ad80ff'
+  code_background: 'rgba(27, 31, 35, .05)'
+  toc_color: '#FF8000'
+  blockquote_padding_color: '#FF8000'
+  blockquote_background_color: '#FF8000'
+  scrollbar_color: '#FF8000'
+  meta_theme_color_light: 'ffffff'
+  meta_theme_color_dark: '#0d0d0d'
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -681,7 +681,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -851,8 +851,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: "#ff8000" # The background color of Toast Notification in light mode
-  bg_dark: "#ff8000" # The background color of Toast Notification in dark mode
+  bg_light: '#ff8000' # The background color of Toast Notification in light mode
+  bg_dark: '#ff8000' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
