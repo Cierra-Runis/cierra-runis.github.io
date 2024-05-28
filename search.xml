@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>SwiftUI 使用报告</title>
+      <link href="/posts/4691/"/>
+      <url>/posts/4691/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Swift-语言"><a href="#Swift-语言" class="headerlink" title="Swift 语言"></a>Swift 语言</h2><p>Swift 是 Apple  开发的一门编程语言——不想某为什么 <a href="https://developer.huawei.com/consumer/cn/arkts/">ArkTS 语言</a> 给 TypeScript 套皮——用的范围也很小，就它自家的产品开发用。</p><p>Swift 和 Kotlin 非常相似，创新了一些比较奇妙的语法——像什么：</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">callFunction(parma1, (value) &#123;</span><br><span class="line">  <span class="keyword">final</span> value2 = value * <span class="number">2</span>; <span class="built_in">print</span>(value2)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>这种最后一个参数是函数的情况，可以写作：</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">callFunction(parma1) &#123; value <span class="keyword">in</span></span><br><span class="line">  <span class="keyword">let</span> value2 <span class="operator">=</span> value <span class="operator">*</span> <span class="number">2</span></span><br><span class="line">  <span class="built_in">print</span>(value2)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>你说代码好看了嘛是好看了，但代码格式化的时候不会自动格式化到这种好看的格式，要写这种格式代码补全时有不给我补全成这样，到后面反而是浪费了时间。</p><p>我不是很喜欢 Swift，究其原因如下：</p><ol><li>必需使用 XCode 才能使用 Swift 语言</li><li>XCode 不自带代码格式化，需要自己找插件</li><li>格式化风格不统一</li><li>没有热更新（Dart 都可以不依赖 Flutter 更新热更新）</li></ol><p>在寻找 Swift 相关项目时看到了能使 Swift 热更新的 <a href="https://github.com/johnno1962/InjectionIII">InjectIII</a> 项目，为什么苹果不加？</p><h2 id="XCode"><a href="#XCode" class="headerlink" title="XCode"></a>XCode</h2><p>我真的很想吐槽：这是人用的 IDE？</p><p>真的很难想象 XCode 没有 Internationalization，以及它的那些面板排布为什么这么反人类，文件管理视图为什么这么让人憋屈。</p><p>我知道 XCode 和 Android Studio 一样都有个项目视图，但 Android Studio 还能让人切到文件视图，但 XCode，我的选项呢？</p><p><code>Preview</code> 功能是需要表扬的，因为 SwiftUI 不支持热更新所以连 <code>Preview</code> 都没有的话就更写不下去了。</p><p>但它这 <code>Preview</code> 是会丢失状态的，所以还是有点不行。</p><h2 id="SwiftUI"><a href="#SwiftUI" class="headerlink" title="SwiftUI"></a>SwiftUI</h2><p>我要骂死你们的 document 啊，你们是不舍得给例子吗？光有文字描述我怎么知道我怎么使用这个组件、函数、类啊？</p><p><code>List</code> 也是神鬼莫测，文档不说明它会自动给子组件加背景和分割线，我在思考。</p><p>有个 <code>LabeledContent</code> 这么好的组件你怎么忍心让它吃灰呢？我一开始一直都是用 <code>HStack &#123; Label() Space() Text() &#125;</code> 这样实现类似 Flutter 里的 <code>ListTile</code> 组件的。</p><p>它要是像 Flutter 那样有一个组件 Gallery 给你展示出来多好啊，可就是没有。</p><p>要称赞的一点就是它的 <code>Text</code> 组件，能直接写 markdown 转 URL 链接：</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Text</span>(<span class="string">&quot;[byrdsaron@gmail.com](mailto://byrdsaron@gmail.com)&quot;</span>)</span><br></pre></td></tr></table></figure><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>资料好少，我好伤心。</p><p>自己在用 SwiftUI 写一个手写字体创建软件，我要了解 Unicode、字体、字形的相关知识，特别是怎么在 SwiftUI 里实现这件事，因为这需要涉及到一些比较低级的函数和接口。</p><p>但资料少的一批，官方文档简略的一批，鼠鼠我伤心的一批 😢。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更好的排版</title>
       <link href="/posts/64096/"/>
       <url>/posts/64096/</url>
@@ -29,9 +42,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Flutter </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> Flutter </tag>
             
         </tags>
       
@@ -270,9 +283,9 @@
             
             <tag> 笔记 </tag>
             
-            <tag> Flutter </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> Flutter </tag>
             
         </tags>
       
@@ -295,6 +308,17 @@
     
     
     <entry>
+      <title>Flutter</title>
+      <link href="/flutter/index.html"/>
+      <url>/flutter/index.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pub.dev/static/hash-tihrt5d6/img/pub-dev-logo.svg" alt="pub-logo"></p><table><thead><tr><th align="center">Flutter 包名</th><th align="center">Demo 演示</th><th align="center">GitHub 仓库</th><th align="center">Pub 仓库</th></tr></thead><tbody><tr><td align="center">based_avatar</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_avatar">点此跳转</a></td></tr><tr><td align="center">based_battery_indicator</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_battery_indicator">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_battery_indicator">点此跳转</a></td></tr><tr><td align="center">based_dock_scaffold</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_dock_scaffold">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_dock_scaffold">点此跳转</a></td></tr><tr><td align="center">based_list</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_widget">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_list">点此跳转</a></td></tr><tr><td align="center">based_qr</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_qr">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_qr">点此跳转</a></td></tr><tr><td align="center">based_splash_page</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_splash_page">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_splash_page">点此跳转</a></td></tr><tr><td align="center">based_split_view</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_split_view">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_split_view">点此跳转</a></td></tr><tr><td align="center">qweather_icons</td><td align="center"><a href="https://note-of-me.top/qweather_icons/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/qweather_icons">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/qweather_icons">点此跳转</a></td></tr></tbody></table>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
@@ -306,11 +330,11 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th align="center">头像</th><th align="center">链接</th></tr></thead><tbody><tr><td align="center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td align="center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -328,22 +352,11 @@
     
     
     <entry>
-      <title>Flutter</title>
-      <link href="/flutter/index.html"/>
-      <url>/flutter/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<p><img src="https://pub.dev/static/hash-tihrt5d6/img/pub-dev-logo.svg" alt="pub-logo"></p><table><thead><tr><th align="center">Flutter 包名</th><th align="center">Demo 演示</th><th align="center">GitHub 仓库</th><th align="center">Pub 仓库</th></tr></thead><tbody><tr><td align="center">based_avatar</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_avatar">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_avatar">点此跳转</a></td></tr><tr><td align="center">based_battery_indicator</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_battery_indicator">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_battery_indicator">点此跳转</a></td></tr><tr><td align="center">based_dock_scaffold</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_dock_scaffold">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_dock_scaffold">点此跳转</a></td></tr><tr><td align="center">based_list</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_widget">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_list">点此跳转</a></td></tr><tr><td align="center">based_qr</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_qr">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_qr">点此跳转</a></td></tr><tr><td align="center">based_splash_page</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_splash_page">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_splash_page">点此跳转</a></td></tr><tr><td align="center">based_split_view</td><td align="center"><a href="https://note-of-me.top/based_widget/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/based_widget/tree/master/packages/based_split_view">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/based_split_view">点此跳转</a></td></tr><tr><td align="center">qweather_icons</td><td align="center"><a href="https://note-of-me.top/qweather_icons/">点此跳转</a></td><td align="center"><a href="https://github.com/Cierra-Runis/qweather_icons">点此跳转</a></td><td align="center"><a href="https://pub.dev/packages/qweather_icons">点此跳转</a></td></tr></tbody></table>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<table><thead><tr><th align="center">头像</th><th align="center">链接</th></tr></thead><tbody><tr><td align="center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td align="center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
       
     </entry>
     
