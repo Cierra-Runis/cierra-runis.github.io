@@ -30,8 +30,8 @@ callFunction(parma1) { value in
 
 我不是很喜欢 Swift，究其原因如下：
 
-1. 必须使用 XCode 才能使用 Swift 语言
-2. XCode 不自带代码格式化，需要自己找插件
+1. 必须使用 Xcode 才能使用 Swift 语言
+2. Xcode 不自带代码格式化，需要自己找插件
 3. 格式化风格不统一
 4. 没有热更新（Dart 都可以不依赖 Flutter 进行热更新）
 
@@ -41,9 +41,9 @@ callFunction(parma1) { value in
 
 我真的很想吐槽：这是人用的 IDE？
 
-真的很难想象 XCode 没有 Internationalization，以及它的那些面板排布为什么这么反人类，文件管理视图为什么这么让人憋屈。
+真的很难想象 Xcode 没有 Internationalization，以及它的那些面板排布为什么这么反人类，文件管理视图为什么这么让人憋屈。
 
-我知道 XCode 和 Android Studio 一样都有个项目视图，但 Android Studio 还能让人切到文件视图，但 XCode，我的选项呢？
+我知道 Xcode 和 Android Studio 一样都有个项目视图，但 Android Studio 还能让人切到文件视图，但 Xcode，我的选项呢？
 
 `Preview` 功能是需要表扬的，因为 SwiftUI 不支持热更新所以连 `Preview` 都没有的话就更写不下去了。
 
@@ -59,7 +59,7 @@ callFunction(parma1) { value in
 
 它要是像 Flutter 那样有一个 [组件 Gallery](https://flutter.github.io/samples/web/material_3_demo/#/) 给你展示出来多好啊，可就是没有。
 
-要称赞的一点就是它的 `Text` 组件，能直接写 markdown 转 URL 链接：
+要称赞的一点就是它的 `Text` 组件，能直接写 Markdown 转 URL 链接：
 
 ```swift
 Text("[byrdsaron@gmail.com](mailto://byrdsaron@gmail.com)")
