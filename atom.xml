@@ -41,9 +41,9 @@
     <link href="https://note-of-me.top/posts/64096/"/>
     <id>https://note-of-me.top/posts/64096/</id>
     <published>2024-05-05T14:03:56.000Z</published>
-    <updated>2024-05-31T14:33:42.264Z</updated>
+    <updated>2024-06-01T08:14:21.717Z</updated>
     
-    <content type="html"><![CDATA[<p>自写日记开始，自己就越来越注重文字排版。</p><p>我是希望自己编写出来的东西是被精心设计过的，被别人看到时别人会感到舒适的。</p><p>除了之前所谈的“注意语病”外，现在多加的习性则是：</p><h2 id="使用标准的专有名词"><a href="#使用标准的专有名词" class="headerlink" title="使用标准的专有名词"></a>使用标准的专有名词</h2><p>例如 GitHub，官方使用该词时都是 <strong>G</strong>it<strong>H</strong>ub，从来不会使用什么 github、gitHub。</p><p>Xcode 也是，c 是小写的，而 VSCode，C 是大写的。</p><p>当然，编程里有 camelCase 这样的命名规范，那么这时 GitHub 对应什么？是 github 还是 gitHub 呢？</p><p>看个人喜好啦～</p><h2 id="不再过分使用括号"><a href="#不再过分使用括号" class="headerlink" title="不再过分使用括号"></a>不再过分使用括号</h2><p>括号一层一层嵌套会使得意思极其“扭曲”，理解起来需要绕弯子，同时存在一堆右括号连在一起的情况，这很不美观。特别是如果存在括号内多重括号完后接下句，其所指的前文是很难很快找到的。</p><p>更好的做法当然是尽可能不使用括号，将想要表达的内容尽可能展开（flatten）来，出现跳跃性的句子可以使用破折号。</p><h2 id="中英文混排时添加空格"><a href="#中英文混排时添加空格" class="headerlink" title="中英文混排时添加空格"></a>中英文混排时添加空格</h2><p>在绝大多数情况下，在半角字符和全角字符直接加入空格就能给人一种文章没那么挤的感受。</p><p>比如接下来的这句话：</p><blockquote><p>我喜欢吃 apple，不喜欢吃 peach 和 orange。</p></blockquote><p>加入空格：</p><blockquote><p>我喜欢吃 apple ，不喜欢吃 peach 和 orange 。</p></blockquote><p>这里在每个单词左右两边都加了空格。</p><p>但这里实际上 apple 和 orange 后面由于接续的是一个全角的标点符号，且这个标点符号视觉上可以看作一个半角符号和一个空格，所以我们可以把后面的空格删去。</p><blockquote><p>我喜欢吃 apple，不喜欢吃 peach 和 orange。</p></blockquote><p>但像“——”“……”这种会占满整个宽度的标点符号，小学老师并没有说左右加什么空格，但现在看来它们有点挤，我是建议加上空格的，这点可以不用严格遵守。</p><p>除此之外，还有计量单位的事。</p><p>1 kg，1 m，1 s。在数字和单位之间需要空格——这实际上就是英文排版要求——而类似 100%，百（千）分号不需要。</p><p>当然，你说类似 4G（第四代移动通信技术）这样的词，它本身是一个专业名词，所以之间不需要空格，但 4 G 确实可以表示类似“4 克”“4 金币”的意思，所以这就得看上下文了。</p><p>同时说说苹果在这方面的细节，他们会如上细微调整半角和全角字符之间的间隔（kerning），看上去和加了空格差不多，反而因为自己加了空格可能会显得间隔过大。</p><p>但考虑到不是所有的设备都有这样的特性，自己加上空格还是更普适的。</p>]]></content>
+    <content type="html"><![CDATA[<p>自写日记开始，自己就越来越注重文字排版。</p><p>我是希望自己编写出来的东西是被精心设计过的，被别人看到时别人会感到舒适的。</p><p>除了之前所谈的“注意语病”外，现在多加的习性则是：</p><h2 id="使用标准的专有名词"><a href="#使用标准的专有名词" class="headerlink" title="使用标准的专有名词"></a>使用标准的专有名词</h2><p>例如 GitHub，官方使用该词时都是 <strong>G</strong>it<strong>H</strong>ub，从来不会使用什么 github、gitHub。</p><p>Xcode 也是，c 是小写的，而 VSCode，C 是大写的。</p><p>当然，编程里有 camelCase 这样的命名规范，那么这时 GitHub 对应什么？是 github 还是 gitHub 呢？</p><p>看个人喜好啦～</p><h2 id="不再过分使用括号"><a href="#不再过分使用括号" class="headerlink" title="不再过分使用括号"></a>不再过分使用括号</h2><p>括号一层一层嵌套会使得意思极其“扭曲”，理解起来需要绕弯子，同时存在一堆右括号连在一起的情况，这很不美观。特别是如果存在括号内多重括号完后接下句，其所指的前文是很难很快找到的。</p><p>更好的做法当然是尽可能不使用括号，将想要表达的内容尽可能展开（flatten）来，出现跳跃性的句子可以使用破折号。</p><h2 id="中英文混排时添加空格"><a href="#中英文混排时添加空格" class="headerlink" title="中英文混排时添加空格"></a>中英文混排时添加空格</h2><p>在绝大多数情况下，在半角字符和全角字符直接加入空格就能给人一种文章没那么挤的感受。</p><p>比如接下来的这句话：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我喜欢吃apple，不喜欢吃peach和orange。</span><br></pre></td></tr></table></figure><p>加入空格：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我喜欢吃 apple ，不喜欢吃 peach 和 orange 。</span><br></pre></td></tr></table></figure><p>这里在每个单词左右两边都加了空格。</p><p>但这里实际上 apple 和 orange 后面由于接续的是一个全角的标点符号，且这个标点符号视觉上可以看作一个半角符号和一个空格，所以我们可以把后面的空格删去。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我喜欢吃 apple，不喜欢吃 peach 和 orange。</span><br></pre></td></tr></table></figure><p>但像“——”“……”这种会占满整个宽度的标点符号，小学老师并没有说左右加什么空格，但现在看来它们有点挤，我是建议加上空格的，这点可以不用严格遵守。</p><p>除此之外，还有计量单位的事。</p><p>1 kg，1 m，1 s。在数字和单位之间需要空格——这实际上就是英文排版要求——而类似 100%，百（千）分号不需要。</p><p>当然，你说类似 4G（第四代移动通信技术）这样的词，它本身是一个专业名词，所以之间不需要空格，但 4 G 确实可以表示类似“4 克”“4 金币”的意思，所以这就得看上下文了。</p><p>同时说说苹果在这方面的细节，他们会如上细微调整半角和全角字符之间的间隔（kerning），看上去和加了空格差不多，反而因为自己加了空格可能会显得间隔过大。</p><p>但考虑到不是所有的设备都有这样的特性，自己加上空格还是更普适的。</p>]]></content>
     
     
       
@@ -205,9 +205,9 @@
     
     <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
-    <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
-    
     <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
+    
+    <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
     
   </entry>
   

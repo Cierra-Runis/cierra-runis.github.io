@@ -1500,7 +1500,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: Torus, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif;
+  font-family: Torus, MiSans, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1772,7 +1772,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: cascadia, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif !important;
+  font-family: Cascadia Code, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif !important;
 }
 #article-container code {
   padding: 2px 4px;
