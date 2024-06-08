@@ -212,18 +212,18 @@
   </entry>
   
   <entry>
-    <title>LaTeX 使用感受</title>
+    <title>LaTeX 使用报告</title>
     <link href="https://note-of-me.top/posts/1235/"/>
     <id>https://note-of-me.top/posts/1235/</id>
     <published>2023-03-07T14:48:21.000Z</published>
-    <updated>2024-04-29T13:55:56.076Z</updated>
+    <updated>2024-06-08T09:02:02.004Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><code>LaTeX</code> 是一个文档准备系统 （<code>Document Preparing System</code>），它非常适用于生成高印刷质量的科技类和数学类文档。它也能够生成所有其他种类的文档，小到简单的信件，大到完整的书籍。<code>LaTeX</code> 使用 <code>TeX</code> 作为它的排版引擎。</p><p>总之是以代码的形式生成很漂亮的 <code>pdf</code> 文档！相比 <code>Word</code> 他虽然不够直观，但，漂亮决定一切（（（</p><h2 id="一些不便"><a href="#一些不便" class="headerlink" title="一些不便"></a>一些不便</h2><ol><li><code>Emoji</code> 插入不便</li><li>自定义字体不便</li><li>错误排查不便</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><code>LaTeX</code> 是一个文档准备系统（<code>Document Preparing System</code>），它非常适用于生成高印刷质量的科技类和数学类文档。它也能够生成所有其他种类的文档，小到简单的信件，大到完整的书籍。<code>LaTeX</code> 使用 <code>TeX</code> 作为它的排版引擎。</p><p>总之是以代码的形式生成很漂亮的 <code>pdf</code> 文档！相比 <code>Word</code> 他虽然不够直观，但，漂亮决定一切（（（</p><h2 id="一些不便"><a href="#一些不便" class="headerlink" title="一些不便"></a>一些不便</h2><ol><li><code>Emoji</code> 插入不便</li><li>自定义字体不便</li><li>错误排查不便</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;code&gt;LaTeX&lt;/code&gt; 是一个文档准备系统 （&lt;code&gt;Document Preparing System&lt;/code&gt;），</summary>
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;code&gt;LaTeX&lt;/code&gt; 是一个文档准备系统（&lt;code&gt;Document Preparing System&lt;/code&gt;），它</summary>
       
     
     
