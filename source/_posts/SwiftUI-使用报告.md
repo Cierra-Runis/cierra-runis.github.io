@@ -37,7 +37,7 @@ callFunction(parma1) { value in
 
 在寻找 Swift 相关项目时看到了能使 Swift 热更新的 [InjectIII](https://github.com/johnno1962/InjectionIII) 项目，为什么 Apple 不加？
 
-## XCode
+## Xcode
 
 我真的很想吐槽：这是人用的 IDE？
 

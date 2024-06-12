@@ -12,7 +12,7 @@ cover: img/React-Native-使用报告/cover.png
 
 最近在恶补 React、Next.js、React Native，我先谈谈这个 React Native。
 
-## 一、语言不行？
+## 语言不行？
 
 几个月下来，对 TypeScript 的了解更深了，能基本使用 TypeScript 了，像是它的解构，挺有趣的。自己也用 TypeScript 开发了一个 [VSCode 插件](https://github.com/Cierra-Runis/based_vscode_extension)，可以说是这个项目后才对 TypeScript 有了好感。
 
@@ -24,7 +24,7 @@ cover: img/React-Native-使用报告/cover.png
 
 但也要求这个过程是渐进的，不然出 bug 会很难受，比如说 Windows 升级，我甚至不想让它自动更新。
 
-## 二、框架不行？
+## 框架不行？
 
 ### 组件设计
 
@@ -54,7 +54,7 @@ Lint 提示确实还是不太好，有些属性名和原来的 CSS 属性名还�
 
 唯一一点好处就是，这个页面间跳转动画挺好看，因为跳转动画是 Android 自带的，因为跳转是使用了原生的。
 
-## 三、Debug 工具不方便
+## Debug 工具不方便
 
 对，今天开个第三节继续吐槽 React Native。
 
@@ -66,7 +66,7 @@ Lint 提示确实还是不太好，有些属性名和原来的 CSS 属性名还�
 
 而且我这玩意不能热重启，我只能重载 VSCode 再启动——而热更新也是，很多时候我都不知道它有没有更新，特别是在出 bug 后，保持黑屏，还得自己重启。
 
-## 四、结尾
+## 结尾
 
 总之写起来很累，相比较 Flutter，无论是布局、导航、编程语言、调试工具，React Native 都没有很大的优势——它最大的优势可能就是沾了 React 的光，“熟悉 Web 前端开发的技术人员只需很少的学习就可以进入移动应用开发领域”，但 React 嘛，还是让它好好搞网页开发吧，移动应用真不适合。
 
