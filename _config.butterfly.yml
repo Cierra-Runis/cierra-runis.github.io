@@ -145,7 +145,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   style_simple: false # for post
   scroll_percent: true
 
