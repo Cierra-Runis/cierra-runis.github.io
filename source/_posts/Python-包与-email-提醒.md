@@ -16,7 +16,7 @@ date: 2023-01-08 13:50:21
 
 参考了苹果购物详情邮件：
 
-![Alt text](img/Python-包与-email-提醒/image.png)
+![Alt text](/img/Python-包与-email-提醒/image.png)
 
 可是在修改过程中发现各个平台显示出的结果都不一样，其中：
 

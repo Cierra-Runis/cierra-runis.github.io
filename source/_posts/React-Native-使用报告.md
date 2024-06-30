@@ -23,7 +23,7 @@ cover: img/React-Native-使用报告/cover.png
 
 再来聊聊 `Flutter` 使用的语言 `Dart`，这是我用的最喜欢的一门语言。
 
-![1000031563](img/React-Native-使用报告/1000031563.jpg)
+![1000031563](/img/React-Native-使用报告/1000031563.jpg)
 
 首先，他非常像 `Java`，而我曾经写过一段时间的 `Java` 程序，所以很快就上手了。而且相比 `Java`，它有空安全检查，也就是一个变量只有在其类型后面接上个问号时才能赋值为 `null`。相比之下，`Java` 就没有这样的要求，就容易抛出空指针错误。它的语法比 `Java` 简约，`new` 关键字不再是必要的。它还有动态类型，所以动态类型的好处 `Dart` 也有。
 
@@ -41,7 +41,7 @@ cover: img/React-Native-使用报告/cover.png
 
 那 `Flutter` 的包是放在哪的呢？在 `%LOCALAPPDATA%\Pub\Cache\hosted` 下，它按源的不同，分多个文件夹，一般来说是 `pub.dev` 文件夹和 `pub.flutter-io.cn` 文件夹，进 `pub.dev` 文件夹能看到很多包的不同版本的文件夹，就统计下来连 `2 GB` 都没有。
 
-![155b84db5206f6d574ad00822490f74fabd64164e17e12cfcdb729601a82e342](img/React-Native-使用报告/155b84db5206f6d574ad00822490f74fabd64164e17e12cfcdb729601a82e342.png)
+![155b84db5206f6d574ad00822490f74fabd64164e17e12cfcdb729601a82e342](/img/React-Native-使用报告/155b84db5206f6d574ad00822490f74fabd64164e17e12cfcdb729601a82e342.png)
 
 高下立判。
 
