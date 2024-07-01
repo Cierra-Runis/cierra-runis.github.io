@@ -45,8 +45,7 @@ tags:
 
 首先是代码格式化的问题，这个上面讲过了，那么接下来说点别的。
 
-插件未免太少了，因为自己最常用的代码编辑器是 VSCode 嘛——其实在我心目中这玩意可以说是和 IDE 一样的存在了——所以键位肯定也想按 VSCode 的来，在 IntelliJ IDEA 和 Android Studio 上都有 VSCode KeyMap 的插件可以从 VSCode 导入键位，但
-Dev Studio 上就是没有。
+插件未免太少了，因为自己最常用的代码编辑器是 VSCode 嘛——其实在我心目中这玩意可以说是和 IDE 一样的存在了——所以键位肯定也想按 VSCode 的来，在 IntelliJ IDEA 和 Android Studio 上都有 VSCode KeyMap 的插件可以从 VSCode 导入键位，但 Dev Studio 上就是没有。
 
 难道说华为就完全没有在使用 VSCode 的吗……我去，Xcode 也没有，这下破案了。
 
