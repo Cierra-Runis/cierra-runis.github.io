@@ -65,7 +65,7 @@ callFunction(parma1) { value in
 Text("[byrdsaron@gmail.com](mailto://byrdsaron@gmail.com)")
 ```
 
-## 其他
+## 总结
 
 资料好少，我好伤心。
 
