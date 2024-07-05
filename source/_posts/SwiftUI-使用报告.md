@@ -37,6 +37,10 @@ callFunction(parma1) { value in
 
 在寻找 Swift 相关项目时看到了能使 Swift 热更新的 [InjectIII](https://github.com/johnno1962/InjectionIII) 项目，为什么 Apple 不加？
 
+> 2024-07-05 12:50:35
+> 修正：Swift 可以在 macOS、Linux、Windows 上使用，详见 [官方文档](https://www.swift.org/getting-started/)
+> 这下更喜欢 Swift 了 🥰
+
 ## Xcode
 
 我真的很想吐槽：这是人用的 IDE？
