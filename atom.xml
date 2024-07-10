@@ -6,7 +6,7 @@
   <link href="https://note-of-me.top/atom.xml" rel="self"/>
   
   <link href="https://note-of-me.top/"/>
-  <updated>2024-07-01T13:04:19.415Z</updated>
+  <updated>2024-07-10T08:10:49.417Z</updated>
   <id>https://note-of-me.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>鸿蒙 ArkUI 使用报告（二）</title>
+    <link href="https://note-of-me.top/posts/18071/"/>
+    <id>https://note-of-me.top/posts/18071/</id>
+    <published>2024-07-10T07:48:00.000Z</published>
+    <updated>2024-07-10T08:10:49.417Z</updated>
+    
+    <content type="html"><![CDATA[<p>不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。</p><p>给目前自己接触过的大前端框架拍个名的话</p><ol><li>Flutter：当之无愧</li><li>SwiftUI：除了文档没有示例，代码格式化不舒服外，框架本身是没问题的</li><li>Next.js：前端的神</li><li>Electron：桌面端的神，但我不喜欢什么东西都是浏览器套壳</li><li>React Native：页面路由麻烦，开发工具不方便</li><li>Jetpack Compose：半成品</li><li>ArkUI：残次品</li></ol><p>它的 IDE 弱智到什么程度呢？连最起码的变量类型都显示不对，Linter 诡异莫测完全不起作用，代码补全完全残废，连 code fix 也没有。</p><p>有人真要是能对这坨东西骄傲的说有多么厉害那还是屎吃多了不知道饭是咋样的。</p><p>状态管理是抄都抄不懂啊！就连最简单的父组件的给子组件传参，父组件的状态变化了不影响子组件，要多在子组件参数加上 <code>@Link</code> 注解，那这样我要是子组件有很多参数依赖是不是得把参数都加上 <code>@Link</code> 注解？那如此的话模板代码量不就又上去了？</p><p>完全不看好 ArkUI 未来的发展，希望早日暴毙。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。&lt;/p&gt;
+&lt;p&gt;给目前自己接触过的大前端框架拍个名的话&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Flutter：当之无愧&lt;/li&gt;
+&lt;li&gt;SwiftUI：除了文档没有示例，代码格式化不舒服外，框架本身是没问题的&lt;/li&gt;
+&lt;li&gt;Nex</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>鸿蒙 ArkUI 使用报告</title>

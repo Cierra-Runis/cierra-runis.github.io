@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>鸿蒙 ArkUI 使用报告（二）</title>
+      <link href="/posts/18071/"/>
+      <url>/posts/18071/</url>
+      
+        <content type="html"><![CDATA[<p>不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。</p><p>给目前自己接触过的大前端框架拍个名的话</p><ol><li>Flutter：当之无愧</li><li>SwiftUI：除了文档没有示例，代码格式化不舒服外，框架本身是没问题的</li><li>Next.js：前端的神</li><li>Electron：桌面端的神，但我不喜欢什么东西都是浏览器套壳</li><li>React Native：页面路由麻烦，开发工具不方便</li><li>Jetpack Compose：半成品</li><li>ArkUI：残次品</li></ol><p>它的 IDE 弱智到什么程度呢？连最起码的变量类型都显示不对，Linter 诡异莫测完全不起作用，代码补全完全残废，连 code fix 也没有。</p><p>有人真要是能对这坨东西骄傲的说有多么厉害那还是屎吃多了不知道饭是咋样的。</p><p>状态管理是抄都抄不懂啊！就连最简单的父组件的给子组件传参，父组件的状态变化了不影响子组件，要多在子组件参数加上 <code>@Link</code> 注解，那这样我要是子组件有很多参数依赖是不是得把参数都加上 <code>@Link</code> 注解？那如此的话模板代码量不就又上去了？</p><p>完全不看好 ArkUI 未来的发展，希望早日暴毙。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>鸿蒙 ArkUI 使用报告</title>
       <link href="/posts/49343/"/>
       <url>/posts/49343/</url>
@@ -392,22 +405,22 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>zeus</title>
+      <link href="/zeus/index.html"/>
+      <url>/zeus/index.html</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th style="text-align:center">头像</th><th style="text-align:center">链接</th></tr></thead><tbody><tr><td style="text-align:center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td style="text-align:center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://zeus-pi.vercel.app/">请点击继续</a></p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>zeus</title>
-      <link href="/zeus/index.html"/>
-      <url>/zeus/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://zeus-pi.vercel.app/">请点击继续</a></p>]]></content>
+        <content type="html"><![CDATA[<table><thead><tr><th style="text-align:center">头像</th><th style="text-align:center">链接</th></tr></thead><tbody><tr><td style="text-align:center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td style="text-align:center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
       
     </entry>
     
