@@ -13,7 +13,7 @@
   <url>
     <loc>https://note-of-me.top/posts/55041/</loc>
     
-    <lastmod>2024-07-15</lastmod>
+    <lastmod>2024-07-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -227,6 +227,20 @@
 
   
   <url>
+    <loc>https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2024-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://note-of-me.top/tags/python/</loc>
     <lastmod>2024-07-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,20 +256,6 @@
   
   <url>
     <loc>https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2024-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/</loc>
     <lastmod>2024-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
