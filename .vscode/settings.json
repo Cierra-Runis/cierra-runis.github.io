@@ -14,5 +14,14 @@
     "**/.deploy_git": true,
     "db.json": true
   },
-  "explorerExclude.backup": {}
+  "explorerExclude.backup": {},
+  "cSpell.words": [
+    "arcsin",
+    "arctan",
+    "bmatrix",
+    "infty",
+    "mathrm",
+    "overrightarrow",
+    "vmatrix"
+  ]
 }
