@@ -8,6 +8,8 @@ abbrlink: 1125
 date: 2024-08-02 17:26:37
 ---
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=229215706&bvid=BV148411f7nx&cid=1146264098&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 |                                英文                                 |                    中文                     |
 | :-----------------------------------------------------------------: | :-----------------------------------------: |
 |                   I don't want to be an engineer                    |            我不想成为一个工程师             |
