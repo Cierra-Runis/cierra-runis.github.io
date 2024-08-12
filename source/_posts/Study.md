@@ -8,7 +8,7 @@ abbrlink: 1125
 date: 2024-08-02 17:26:37
 ---
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=229215706&bvid=BV148411f7nx&cid=1146264098&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=229215706&bvid=BV148411f7nx&cid=1146264098&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 |                                英文                                 |                    中文                     |
 | :-----------------------------------------------------------------: | :-----------------------------------------: |
@@ -18,7 +18,7 @@ date: 2024-08-02 17:26:37
 |   These numbers in my head keep on spinning round and round Yeah    |         这些数字在我脑海中不停旋转          |
 |                          I can only guess                           |                  我只能猜                   |
 |                            What's right?                            |                 什么是对的                  |
-|       Should I stay three more years years just to waste away?      |      我应该再待三年只是为了浪费时间吗       |
+|          Should I stay three more years just to waste away?         |      我应该再待三年只是为了浪费时间吗       |
 |                Become a slave to all these numbers?                 |           成为这些所有数字的奴隶            |
 |                    It's overdue, all the stress                     |              这些压力早该结束               |
 |                         yet I say I'm fine                          |               然而我说我没事                |
