@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://note-of-me.top/posts/1125/</loc>
+    
+    <lastmod>2024-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://note-of-me.top/posts/34780/</loc>
     
     <lastmod>2024-08-12</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://note-of-me.top/posts/35170/</loc>
     
     <lastmod>2024-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/posts/1125/</loc>
-    
-    <lastmod>2024-08-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -250,20 +250,6 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/Flutter/</loc>
-    <lastmod>2024-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/React-Native/</loc>
-    <lastmod>2024-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://note-of-me.top/tags/python/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -279,6 +265,20 @@
   
   <url>
     <loc>https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/Flutter/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/React-Native/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
