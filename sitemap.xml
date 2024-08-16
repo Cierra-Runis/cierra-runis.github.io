@@ -243,20 +243,6 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/Flutter/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/React-Native/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -285,21 +271,14 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/song/</loc>
+    <loc>https://note-of-me.top/tags/Flutter/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/lyric/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/social/</loc>
+    <loc>https://note-of-me.top/tags/React-Native/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -349,6 +328,27 @@
   
   <url>
     <loc>https://note-of-me.top/tags/FolderSync/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/song/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/lyric/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/social/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
