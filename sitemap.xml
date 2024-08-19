@@ -243,6 +243,13 @@
   </url>
   
   <url>
+    <loc>https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://note-of-me.top/tags/python/</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -272,13 +279,6 @@
   
   <url>
     <loc>https://note-of-me.top/tags/React-Native/</loc>
-    <lastmod>2024-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
