@@ -16,7 +16,7 @@ cover: img/Minecraft/cover.svg
 
 手机上用的就是“多玩我的世界盒子”啦，当时里面的很多视频都是转载自 Youtube 的，像是粉红羊、钻石哥啥的。
 
-这里提两个视频。第一个严谨来说是系列视频，官方名称叫 [Minecraft for Noobs](https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY)，是个动画视频，推荐看看。里面有集用到了 Hello 这首歌，总之挺好听的（现在觉得有点土就是了）。
+这里提两个视频。第一个严谨来说是系列视频，官方名称叫 [Minecraft for Noobs](https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY)，是个动画视频，推荐看看。第 10 集用到了 OMFG-Hello 这首歌，总之挺好听的（现在觉得有点土就是了）。
 
 其次是
 
