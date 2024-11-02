@@ -16,7 +16,7 @@ cover: img/Minecraft/cover.svg
 
 手机上用的就是“多玩我的世界盒子”啦，当时里面的很多视频都是转载自 Youtube 的，像是粉红羊、钻石哥啥的。
 
-这里提两个视频。第一个是
+这里提两个视频。第一个严谨来说是系列视频，官方名称叫 [Minecraft for Noobs](https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY)
 
 实际上 Minecraft 是付费游戏，但官方对于盗版的态度很平和，没有进行打压，这也让不少像我这样没有钱买游戏的小朋友玩到它。对于盗版行为，我在以后会写篇文章议论一下。我当时确实很想获取正版账号，因为盗版账号是没有皮肤的，默认为 Steve；以及部分服务器开启了“正版验证”，即只允许有正版账号的玩家加入。
 
