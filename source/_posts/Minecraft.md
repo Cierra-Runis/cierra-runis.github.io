@@ -12,7 +12,7 @@ cover: img/Minecraft/cover.svg
 
 当时玩的最多的单人版本还是 `1.7.2`，其他的比如 `1.6.4`、`1.7.10`、`1.8`、`1.10.2` 这几个比较有记忆点的版本相比之下玩得比较少。而服务器的话，就看服务器是用的哪个版本。
 
-电脑上用的是一款名为“麦块我的世界盒子”的软件，当时我完全没学过 Java，只知道 Minecraft 是用 Java 编写的，不知道 Minecraft 本身不能像 EXE 程序一样双击启动，而是需要启动器启动。启动器也就是包了一层 GUI，方便配置一些启动参数，最后也是一条命令行启动——也是，EXE 是 Windows 系统的可执行文件，而 Minecraft Java Edition 又不是只支持 Windows 的，macOS 和 Linux 都行~~（真的有人会在 Linux 玩游戏吗？）~~。现在比较流行的有 HMCL 和 PCL 两款启动器，和麦块一样，只是麦块还带有一些论坛性质，记得还能在上面看相关视频来着。
+电脑上用的是一款名为“麦块我的世界盒子”的软件，当时我完全没学过 Java，只知道 Minecraft 是用 Java 编写的，不知道 Minecraft 本身不能像 EXE 程序一样双击启动，而是需要启动器启动。启动器也就是包了一层 GUI，方便配置一些启动参数，最后也是一条命令行启动——也是，EXE 是 Windows 系统的可执行文件，而 Minecraft Java Edition 又不是只支持 Windows 的，macOS 和 Linux 都行~~（真的有人会在 Linux 玩游戏吗？）~~。现在比较流行的有 [HMCL](https://github.com/HMCL-dev/HMCL) 和 [PCL2](https://github.com/Hex-Dragon/PCL2) 两款启动器，和麦块一样，只是麦块还带有一些论坛性质，记得还能在上面看相关视频来着。
 
 手机上用的就是“多玩我的世界盒子”啦，当时里面的很多视频都是转载自 Youtube 的，像是粉红羊、钻石哥啥的。
 
