@@ -2,6 +2,7 @@
 title: Minecraft
 tags: 游戏
 cover: img/Minecraft/cover.svg
+abbrlink: 2956
 ---
 
 最近在折腾 Minecraft 服务器，有了想写的东西，也就一并写在这里。
@@ -12,11 +13,13 @@ cover: img/Minecraft/cover.svg
 
 当时玩的最多的单人版本还是 `1.7.2`，其他的比如 `1.6.4`、`1.7.10`、`1.8`、`1.10.2` 这几个比较有记忆点的版本相比之下玩得比较少。而服务器的话，就看服务器是用的哪个版本。
 
-电脑上用的是一款名为“麦块我的世界盒子”的软件，当时我完全没学过 Java，只知道 Minecraft 是用 Java 编写的，不知道 Minecraft 本身不能像 EXE 程序一样双击启动，而是需要启动器启动。启动器也就是包了一层 GUI，方便配置一些启动参数，最后也是一条命令行启动——也是，EXE 是 Windows 系统的可执行文件，而 Minecraft Java Edition 又不是只支持 Windows 的，macOS 和 Linux 都行~~（真的有人会在 Linux 玩游戏吗？）~~。现在比较流行的有 [HMCL](https://github.com/HMCL-dev/HMCL) 和 [PCL2](https://github.com/Hex-Dragon/PCL2) 两款启动器，和麦块一样，只是麦块还带有一些论坛性质，记得还能在上面看相关视频来着。
+电脑上用的是一款名为“麦块我的世界盒子”的软件，当时我完全没学过 Java，只知道 Minecraft 是用 Java 编写的，不知道 Minecraft 本身不能像 EXE 程序一样双击启动，而是需要启动器启动。启动器也就是包了一层 GUI，方便配置一些启动参数，最后也是一条命令行启动——也是，EXE 是 Windows 系统的可执行文件，而 Minecraft Java Edition 又不是只支持 Windows 的，macOS 和 Linux 都行。~~（真的有人会在 Linux 玩游戏吗？）~~
+
+现在比较流行的有 [HMCL](https://github.com/HMCL-dev/HMCL) 和 [PCL2](https://github.com/Hex-Dragon/PCL2) 两款启动器，和麦块一样，只是麦块还带有一些论坛性质，记得还能在上面看相关视频来着。
 
 手机上用的就是“多玩我的世界盒子”啦，当时里面的很多视频都是转载自 Youtube 的，像是粉红羊、钻石哥啥的。
 
-这里提两个视频。第一个严谨来说是系列视频，官方名称叫 [Minecraft for Noobs](https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY)，是个动画视频，推荐看看。第 10 集用到了 OMFG-Hello 这首歌，总之挺好听的（现在觉得有点土就是了）。
+这里提两个视频。第一个严谨来说是系列视频，官方名称叫 [Minecraft for Noobs](https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY)，是个动画视频，推荐看看。第 10 集用到了 [OMFG-Hello](https://www.youtube.com/watch?v=ih2xubMaZWI) 这首歌，总之挺好听的（现在觉得有点土就是了）。
 
 其次是
 
@@ -39,5 +42,3 @@ cover: img/Minecraft/cover.svg
 Sponge 端用的是 plugin 而不是传统的 mod，当初应该是放在 `mods` 文件夹下就是了，现在是 `plugins` 文件夹。这也使得 Sponge 成为了一个比较特殊的端。
 
 ## 再出发
-
-
