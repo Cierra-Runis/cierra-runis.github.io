@@ -2,7 +2,7 @@
 title: 鸿蒙 ArkUI 使用报告（二）
 abbrlink: 18071
 date: 2024-07-10 15:48:00
-tags:
+tags: 使用报告
 ---
 
 不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。

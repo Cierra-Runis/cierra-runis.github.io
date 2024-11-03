@@ -1,6 +1,9 @@
 ---
-abbrlink: 0
+title: SSH
+abbrlink: 22
+tags: 分享
 ---
+
 ## 奔向命令行
 
 Windows 有 `cmd`、`PowerShell`，macOS、Linux 有 `bash`，Android 可以使用 [Termux](https://github.com/termux/termux-app)，也相当于是 Linux 了。
