@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/0/"/>
-      <url>/posts/0/</url>
+      <title>SSH</title>
+      <link href="/posts/22/"/>
+      <url>/posts/22/</url>
       
         <content type="html"><![CDATA[<h2 id="奔向命令行">奔向命令行</h2><p>Windows 有 <code>cmd</code>、<code>PowerShell</code>，macOS、Linux 有 <code>bash</code>，Android 可以使用 <a href="https://github.com/termux/termux-app">Termux</a>，也相当于是 Linux 了。</p><p>macOS 和 Linux 的关系更近，总之都能使用 <code>zsh</code> 而不是 <code>bash</code> 作为 shell，有关 <code>zsh</code> 的配置参见 <a href="https://www.mintimate.cn/2021/02/05/configZsh">这篇文章</a>，</p><p><a href="https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows">SSH 连接 Windows 默认启用 PowerShell</a></p><p><a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a></p><p><a href="https://whlit.github.io/linux/wsl-default-dir.html">WSL 默认目录</a></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -43,6 +49,12 @@
         <content type="html"><![CDATA[<p>现在的话，大致能写点东西了。</p><h2 id="飞机">飞机</h2><p>我认知里的交通工具里，最有技术含量的就是飞机，其次是地铁。地铁有幸在小时候就体验过了，飞机则一直没有乘坐——因为我确乎没有这样的需求，家里人就算行程较远也会选择长途汽车，再就是也从来没有出国旅游、工作、学习。</p><p>这次游学之前，有接触到 <a href="https://space.bilibili.com/358422">ACI</a>（Air Crash Investigation，空中浩劫）这部系列纪录片，讲空难的，也就对飞机感兴趣了。</p><p>这次来日本，是先飞到上海再飞到日本的。先到昌北机场把行李托运后给了登机牌，等到登机就上去咯。</p><p>这段机程确实没什么餐食，单单给了一个小红豆面包，找到自己位置后做到了靠窗的座位，这样正好可以看着窗外。但这排三个位子只有我一个人，确乎有点害怕。</p><p>飞机缓慢（？）地滑行到起飞滑道，然后停住。照纪录片，这里开始确认检查清单。然后便是和滑行时完全不同感觉的加速，加速，<a href="https://en.wikipedia.org/wiki/Rotation_(aeronautics)">rotate</a>，起飞。那时候感觉自己就像坐在一个无轨过山车上，一直向上冲刺。</p><p>到新的“重力加速度”稳定下来，不依赖窗外的天际线，不仔细观察，确乎很难发现飞机的姿态是向上的。着实稍微理解了什么是空间迷向。</p><h2 id="生活">生活</h2><h3 id="住">住</h3><h3 id="食">食</h3><h3 id="行">行</h3><h2 id="项目">项目</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -92,6 +104,12 @@
         <content type="html"><![CDATA[<p>不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。</p><p>给目前自己接触过的大前端框架拍个名的话</p><ol><li>Flutter：当之无愧</li><li>SwiftUI：除了文档没有示例，代码格式化不舒服外，框架本身是没问题的</li><li>Next.js：前端的神</li><li>Electron：桌面端的神，但我不喜欢什么东西都是浏览器套壳</li><li>React Native：页面路由麻烦，开发工具不方便</li><li>Jetpack Compose：半成品</li><li>ArkUI：残次品</li></ol><p>它的 IDE 弱智到什么程度呢？连最起码的变量类型都显示不对，Linter 诡异莫测完全不起作用，代码补全完全残废，连 code fix 也没有。</p><p>有人真要是能对这坨东西骄傲的说有多么厉害那还是屎吃多了不知道饭是咋样的。</p><p>状态管理是抄都抄不懂啊！就连最简单的父组件的给子组件传参，父组件的状态变化了不影响子组件，要多在子组件参数加上 <code>@Link</code> 注解，那这样我要是子组件有很多参数依赖是不是得把参数都加上 <code>@Link</code> 注解？那如此的话模板代码量不就又上去了？</p><p>完全不看好 ArkUI 未来的发展，希望早日暴毙。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 使用报告 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -294,9 +312,9 @@
             
             <tag> 使用报告 </tag>
             
-            <tag> React Native </tag>
-            
             <tag> Flutter </tag>
+            
+            <tag> React Native </tag>
             
         </tags>
       
@@ -481,6 +499,17 @@
     
     
     <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>zeus</title>
       <link href="/zeus/index.html"/>
       <url>/zeus/index.html</url>
@@ -497,17 +526,6 @@
       <url>/link/index.html</url>
       
         <content type="html"><![CDATA[<table><thead><tr><th style="text-align:center">头像</th><th style="text-align:center">链接</th></tr></thead><tbody><tr><td style="text-align:center"><img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/></td><td style="text-align:center"><a href="https://kagurazakaasahi.github.io/">咖酱の博客</a></td></tr></tbody></table>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

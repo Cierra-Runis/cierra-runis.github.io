@@ -6,7 +6,7 @@
   <link href="https://note-of-me.top/atom.xml" rel="self"/>
   
   <link href="https://note-of-me.top/"/>
-  <updated>2024-11-03T04:29:11.139Z</updated>
+  <updated>2024-11-03T04:57:15.990Z</updated>
   <id>https://note-of-me.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://note-of-me.top/posts/0/"/>
-    <id>https://note-of-me.top/posts/0/</id>
+    <title>SSH</title>
+    <link href="https://note-of-me.top/posts/22/"/>
+    <id>https://note-of-me.top/posts/22/</id>
     <published>2024-11-03T04:23:32.491Z</published>
-    <updated>2024-11-03T04:29:11.139Z</updated>
+    <updated>2024-11-03T04:57:15.990Z</updated>
     
     <content type="html"><![CDATA[<h2 id="奔向命令行">奔向命令行</h2><p>Windows 有 <code>cmd</code>、<code>PowerShell</code>，macOS、Linux 有 <code>bash</code>，Android 可以使用 <a href="https://github.com/termux/termux-app">Termux</a>，也相当于是 Linux 了。</p><p>macOS 和 Linux 的关系更近，总之都能使用 <code>zsh</code> 而不是 <code>bash</code> 作为 shell，有关 <code>zsh</code> 的配置参见 <a href="https://www.mintimate.cn/2021/02/05/configZsh">这篇文章</a>，</p><p><a href="https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows">SSH 连接 Windows 默认启用 PowerShell</a></p><p><a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a></p><p><a href="https://whlit.github.io/linux/wsl-default-dir.html">WSL 默认目录</a></p>]]></content>
     
@@ -35,6 +35,8 @@
     
     
     
+    <category term="分享" scheme="https://note-of-me.top/tags/%E5%88%86%E4%BA%AB/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +44,7 @@
     <link href="https://note-of-me.top/posts/2956/"/>
     <id>https://note-of-me.top/posts/2956/</id>
     <published>2024-11-03T04:23:32.490Z</published>
-    <updated>2024-11-03T04:33:20.155Z</updated>
+    <updated>2024-11-03T04:52:34.242Z</updated>
     
     <content type="html"><![CDATA[<p>最近在折腾 Minecraft 服务器，有了想写的东西，也就一并写在这里。</p><h2 id="回忆">回忆</h2><p>这真的是对我影响最大的游戏，没有之一了。可惜的是，我已经完全没有自己接触的这款游戏时的任何记忆了，想讲的事情很多。</p><p>当时玩的最多的单人版本还是 <code>1.7.2</code>，其他的比如 <code>1.6.4</code>、<code>1.7.10</code>、<code>1.8</code>、<code>1.10.2</code> 这几个比较有记忆点的版本相比之下玩得比较少。而服务器的话，就看服务器是用的哪个版本。</p><p>电脑上用的是一款名为“麦块我的世界盒子”的软件，当时我完全没学过 Java，只知道 Minecraft 是用 Java 编写的，不知道 Minecraft 本身不能像 EXE 程序一样双击启动，而是需要启动器启动。启动器也就是包了一层 GUI，方便配置一些启动参数，最后也是一条命令行启动——也是，EXE 是 Windows 系统的可执行文件，而 Minecraft Java Edition 又不是只支持 Windows 的，macOS 和 Linux 都行。<s>（真的有人会在 Linux 玩游戏吗？）</s></p><p>现在比较流行的有 <a href="https://github.com/HMCL-dev/HMCL">HMCL</a> 和 <a href="https://github.com/Hex-Dragon/PCL2">PCL2</a> 两款启动器，和麦块一样，只是麦块还带有一些论坛性质，记得还能在上面看相关视频来着。</p><p>手机上用的就是“多玩我的世界盒子”啦，当时里面的很多视频都是转载自 Youtube 的，像是粉红羊、钻石哥啥的。</p><p>这里提两个视频。第一个严谨来说是系列视频，官方名称叫 <a href="https://youtube.com/playlist?list=PLjxIP-vsTvu3Xg6zWYVNB_urX6dXoI3nY">Minecraft for Noobs</a>，是个动画视频，推荐看看。第 10 集用到了 <a href="https://www.youtube.com/watch?v=ih2xubMaZWI">OMFG-Hello</a> 这首歌，总之挺好听的（现在觉得有点土就是了）。</p><p>其次是</p><p>实际上 Minecraft 是付费游戏，但官方对于盗版的态度很平和，没有进行打压，这也让不少像我这样没有钱买游戏的小朋友玩到它。对于盗版行为，我在以后会写篇文章议论一下。我当时确实很想获取正版账号，因为盗版账号是没有皮肤的，默认为 Steve；以及部分服务器开启了“正版验证”，即只允许有正版账号的玩家加入。</p><p>当时的价格为 165 人民币，我是实在都不可能搞到这么多钱，更何况网购还卡脖子，直到初三后才有了网购能力。而 2022 年 5 月 13 日，鉴于 Minecraft 买基岩版送 Java 且价格非常实惠，也就终于入正了，作为这么多年来陪伴的感谢。</p><p>在没有正版账号的时候，皮肤可以用皮肤站进行修改，像是现在都还在运营的 <a href="https://littleskin.cn/">LittleSkin</a>，而具体的皮肤文件，则可以到 mcbbs 或是我的世界中文下载站找喜欢的，当然也可以自己制作。我自己是不会画的，我找了一个自己喜欢的皮肤，浅浅的修改一下，便有了使用至今的这个皮肤。</p><p>“在铁路上”是 Minecraft 中的一个成就（进度？），它要求玩家“通过矿车旅行，移动到至少离出发点 500 米的位置”，然而不知道为什么，我就是无法获得这个成就——为此还铺设了很长很长的一条轨道，消失在无穷远点的那种——现在想想，可能是创造模式不能获取成就吧。</p><h2 id="服务器">服务器</h2><p>///TODO: 玩服务器</p><p>后面开始自己搭建服务器。第一次写 <code>bat</code> 文件，面对黑窟窟的 <code>cmd</code> 和一堆 log，着实让我头大。</p><p>当初选的是 <a href="https://spongepowered.org/">Sponge</a> 端——官网说今年 10 周年，看来这是 14 年之后的事——教程按 MCBBS 来的，现在看来 Sponge 端不温不火的，我现在应该是不会再选这个端了——不一定呢，或许哪天起兴致了会把所有端都体验一次呢。</p><p>Sponge 端用的是 plugin 而不是传统的 mod，当初应该是放在 <code>mods</code> 文件夹下就是了，现在是 <code>plugins</code> 文件夹。这也使得 Sponge 成为了一个比较特殊的端。</p><h2 id="再出发">再出发</h2>]]></content>
     
@@ -67,7 +69,7 @@
     <link href="https://note-of-me.top/posts/21591/"/>
     <id>https://note-of-me.top/posts/21591/</id>
     <published>2024-10-10T00:14:18.926Z</published>
-    <updated>2024-11-03T04:52:05.898Z</updated>
+    <updated>2024-11-03T04:57:24.782Z</updated>
     
     <content type="html"><![CDATA[<p>现在的话，大致能写点东西了。</p><h2 id="飞机">飞机</h2><p>我认知里的交通工具里，最有技术含量的就是飞机，其次是地铁。地铁有幸在小时候就体验过了，飞机则一直没有乘坐——因为我确乎没有这样的需求，家里人就算行程较远也会选择长途汽车，再就是也从来没有出国旅游、工作、学习。</p><p>这次游学之前，有接触到 <a href="https://space.bilibili.com/358422">ACI</a>（Air Crash Investigation，空中浩劫）这部系列纪录片，讲空难的，也就对飞机感兴趣了。</p><p>这次来日本，是先飞到上海再飞到日本的。先到昌北机场把行李托运后给了登机牌，等到登机就上去咯。</p><p>这段机程确实没什么餐食，单单给了一个小红豆面包，找到自己位置后做到了靠窗的座位，这样正好可以看着窗外。但这排三个位子只有我一个人，确乎有点害怕。</p><p>飞机缓慢（？）地滑行到起飞滑道，然后停住。照纪录片，这里开始确认检查清单。然后便是和滑行时完全不同感觉的加速，加速，<a href="https://en.wikipedia.org/wiki/Rotation_(aeronautics)">rotate</a>，起飞。那时候感觉自己就像坐在一个无轨过山车上，一直向上冲刺。</p><p>到新的“重力加速度”稳定下来，不依赖窗外的天际线，不仔细观察，确乎很难发现飞机的姿态是向上的。着实稍微理解了什么是空间迷向。</p><h2 id="生活">生活</h2><h3 id="住">住</h3><h3 id="食">食</h3><h3 id="行">行</h3><h2 id="项目">项目</h2>]]></content>
     
@@ -81,6 +83,8 @@
     
     
     
+    
+    <category term="分享" scheme="https://note-of-me.top/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
@@ -137,7 +141,7 @@
     <link href="https://note-of-me.top/posts/18071/"/>
     <id>https://note-of-me.top/posts/18071/</id>
     <published>2024-07-10T07:48:00.000Z</published>
-    <updated>2024-10-27T18:49:09.449Z</updated>
+    <updated>2024-11-03T04:57:09.094Z</updated>
     
     <content type="html"><![CDATA[<p>不想说好话，因为鸿蒙 ArkUI 就是纯纯的一坨。</p><p>给目前自己接触过的大前端框架拍个名的话</p><ol><li>Flutter：当之无愧</li><li>SwiftUI：除了文档没有示例，代码格式化不舒服外，框架本身是没问题的</li><li>Next.js：前端的神</li><li>Electron：桌面端的神，但我不喜欢什么东西都是浏览器套壳</li><li>React Native：页面路由麻烦，开发工具不方便</li><li>Jetpack Compose：半成品</li><li>ArkUI：残次品</li></ol><p>它的 IDE 弱智到什么程度呢？连最起码的变量类型都显示不对，Linter 诡异莫测完全不起作用，代码补全完全残废，连 code fix 也没有。</p><p>有人真要是能对这坨东西骄傲的说有多么厉害那还是屎吃多了不知道饭是咋样的。</p><p>状态管理是抄都抄不懂啊！就连最简单的父组件的给子组件传参，父组件的状态变化了不影响子组件，要多在子组件参数加上 <code>@Link</code> 注解，那这样我要是子组件有很多参数依赖是不是得把参数都加上 <code>@Link</code> 注解？那如此的话模板代码量不就又上去了？</p><p>完全不看好 ArkUI 未来的发展，希望早日暴毙。</p>]]></content>
     
@@ -154,6 +158,8 @@
     
     
     
+    
+    <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
   </entry>
   
@@ -425,9 +431,9 @@
     
     <category term="使用报告" scheme="https://note-of-me.top/tags/%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A/"/>
     
-    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
-    
     <category term="Flutter" scheme="https://note-of-me.top/tags/Flutter/"/>
+    
+    <category term="React Native" scheme="https://note-of-me.top/tags/React-Native/"/>
     
   </entry>
   
