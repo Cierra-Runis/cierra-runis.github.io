@@ -14,7 +14,7 @@ tags: 分享
 
 macOS 和 Linux 的关系更近，总之都能使用 `zsh` 而不是 `bash` 作为 shell，有关 `zsh` 的配置参见 [这篇文章](https://www.mintimate.cn/2021/02/05/configZsh)。
 
-`zsh` 相比 `bash` 能提供代码历史补全的功能，在 Windows 上，这需要下载 [PowerToys](https://github.com/microsoft/PowerToys) 并启用里面的 `未找到命令` 功能——看起来代码补全是 `PowerShell` 的功能，但总之这样配置之后就没问题。
+`zsh` 相比 `bash` 能提供命令行历史补全的功能，在 Windows 上，这需要下载 [PowerToys](https://github.com/microsoft/PowerToys) 并启用里面的 `未找到命令` 功能——看起来命令行补全是 `PowerShell` 的功能，但总之这样配置之后就没问题。
 
 在 macOS 上，自带的终端并没有那么“好看”，总之转用了 [iTerm2](https://iterm2.com)，相关的配置略。
 
@@ -30,7 +30,13 @@ macOS 和 Linux 的关系更近，总之都能使用 `zsh` 而不是 `bash` 作�
 
 具体开启 SSH 的流程就不在此赘述了，现在再来谈个别的事。
 
-SSH 支持免密登录，总之使用 GPG 的非对称加密
+SSH 支持免密登录，总之使用 GPG 的非对称加密——我其实对椭圆曲线的数学性质特别感兴趣，但目前找到的一些资料都是用到了抽象代数的方法的那种，没有传统解析几何的那种解释。
+
+> 加密：公钥加密，私钥解密
+> 公钥公开，任何公钥持有者都可以将想要发送给私钥持有者的信息进行加密后发送，这个信息只有私钥持有者能解密。
+>
+> 签名：私钥加密，公钥解密
+> 公钥公开，任何持有公钥的人都能解密私钥加密过的密文，这个过程并不能保证消息的安全性，但是它却能保证消息来源的准确性和不可否认性，也就是说，如果使用公钥能正常解密某一个密文，那么就能证明这段密文一定是由私钥持有者发布的，而不是其他第三方发布的，并且私钥持有者不能否认他曾经发布过该消息。
 
 [SSH 连接 Windows 默认启用 PowerShell](https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows)
 
