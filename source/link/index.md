@@ -1,9 +1,9 @@
 ---
 title: 友链
 date: 2023-01-03 10:39:00
-type: "link"
+type: 'link'
 ---
 
-|                                                 头像                                                 |                       链接                       |
-| :--------------------------------------------------------------------------------------------------: | :----------------------------------------------: |
-| <img src="https://kagurazakaasahi.github.io/images/avatar.jpg" width="64px" height="64px" alt="ka"/> | [咖酱の博客](https://kagurazakaasahi.github.io/) |
+|                                            头像                                             |                 链接                  |
+| :-----------------------------------------------------------------------------------------: | :-----------------------------------: |
+| <img src="https://www.kablog.top/images/avatar.jpg" width="96px" height="96px" alt="咖酱"/> | [咖酱の博客](https://www.kablog.top/) |
