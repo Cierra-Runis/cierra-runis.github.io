@@ -8,7 +8,7 @@
       <link href="/posts/22/"/>
       <url>/posts/22/</url>
       
-        <content type="html"><![CDATA[<h2 id="奔向命令行">奔向命令行</h2><p>大家第一次使用命令行或见到终端是什么时候呢？大多是第一次编写 C 语言程序吧。</p><p>我是小学用 <code>bat</code> 文件开 Minecraft 服务器时接触的，当时就想这个界面可真丑，黑咕隆咚的——现在不一样了，尽情美化喵。</p><p>终端是那个展示 shell 的窗口，而 shell 的话，Windows 有 <code>cmd</code>、<code>PowerShell</code>、<code>Windows PowerShell</code>，macOS、Linux 有 <code>bash</code>，Android 可以使用 <a href="https://github.com/termux/termux-app">Termux</a>，也相当于是 Linux 了——有关 Termux 的配置详见 <a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a>。</p><p>macOS 和 Linux 的关系更近，总之都能使用 <code>zsh</code> 而不是 <code>bash</code> 作为 shell，有关 <code>zsh</code> 的配置参见 <a href="https://www.mintimate.cn/2021/02/05/configZsh">这篇文章</a>。</p><p><code>zsh</code> 相比 <code>bash</code> 能提供命令行历史补全的功能，在 Windows 上，这需要下载 <a href="https://github.com/microsoft/PowerToys">PowerToys</a> 并启用里面的 <code>未找到命令</code> 功能——看起来命令行补全是 <code>PowerShell</code> 的功能，但总之这样配置之后就没问题。</p><p>在 macOS 上，自带的终端并没有那么“好看”，总之转用了 <a href="https://iterm2.com">iTerm2</a>，相关的配置略。</p><h2 id="奔向-SSH">奔向 SSH</h2><p>在购入了 Mac mini 后，除了写 SwiftUI 外，也想用 Mac mini 做些别的什么——我是用不来 macOS，操作逻辑相比 Windows 总是有太多别扭的地方，我是应该还会把 Windows 作为主要的开发环境的。</p><p>于是看视频，了解到 Mac mini 可以作为软路由、NAS、服务器……诶，服务器。</p><p>正好最近在玩 Minecraft，而 Mac mini 完全适合 Minecraft 开服——其实就是我想试试看，总之能分担一下我这台 Windows 笔记本的压力吧，让 Mac mini 专心逻辑处理，Windows 笔记本专心渲染。</p><p>这就牵扯到远程操作了——这其实不算“远程”，只在内网操作嘛，但——我曾经发病莫名其妙的购买阿里云的服务器，完全不了解自己为什么要用、该怎么去用服务器，总之我确实对 SSH 连接这一步有印象。</p><p>具体开启 SSH 的流程就不在此赘述了，现在再来谈个别的事。</p><p>SSH 支持免密登录，总之使用 GPG 的非对称加密——我其实对椭圆曲线的数学性质特别感兴趣，但目前找到的一些资料都是用到了抽象代数的方法的那种，没有传统解析几何的那种解释。</p><blockquote><p>加密：公钥加密，私钥解密<br>公钥公开，任何公钥持有者都可以将想要发送给私钥持有者的信息进行加密后发送，这个信息只有私钥持有者能解密。</p><p>签名：私钥加密，公钥解密<br>公钥公开，任何持有公钥的人都能解密私钥加密过的密文，这个过程并不能保证消息的安全性，但是它却能保证消息来源的准确性和不可否认性，也就是说，如果使用公钥能正常解密某一个密文，那么就能证明这段密文一定是由私钥持有者发布的，而不是其他第三方发布的，并且私钥持有者不能否认他曾经发布过该消息。</p></blockquote><h2 id="奔向-PowerShell">奔向 PowerShell</h2><p>配置好 Windows 和 macOS 上的 SSH 服务后，成功使用 Windows 远程连接到 macOS，相对应的，macOS 也可以远程连接到 Windows，但是远程连接后默认进入的 shell 居然是 <code>cmd</code>，这个实在是有点搞笑了。</p><p><a href="https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows">SSH 连接 Windows 默认启用 PowerShell</a></p><p><a href="https://whlit.github.io/linux/wsl-default-dir.html">WSL 默认目录</a></p><p>如上配置好后，尽情使用 SSH 带来的便利吧。</p><h2 id="BUG">BUG</h2><p>是的，从 Windows 访问 macOS 使用 <code>ls/ll</code> 命令列出含有中文文件的文件夹内容时，会有如下的乱码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">➜  mods git:(main) ✗ ll</span><br><span class="line">total 80440</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   2.0M Oct 28 04:33 ???Fabric API???fabric-api-0.92.2+1.20.1.jar</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   6.3M Oct 28 04:50 ???Kotlin ?????????fabric-language-kotlin-1.9.5+kotlin.1.8.22.jar</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   533K Oct 28 05:15 ???Masa ????????????malilib-fabric-1.20.1-0.16.3.jar</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p>暂时还不知道为什么会出现乱码，照理说都是 <code>UTF-8</code> 编码啊。总之以后再去查查，现在并没有很影响。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="奔向命令行">奔向命令行</h2><p>大家第一次使用命令行或见到终端是什么时候呢？大多是第一次编写 C 语言程序吧。</p><p>我是小学用 <code>bat</code> 文件开 Minecraft 服务器时接触的，当时就想这个界面可真丑，黑咕隆咚的——现在不一样了，尽情美化喵。</p><p>终端是那个展示 shell 的窗口，而 shell 的话，Windows 有 <code>cmd</code>、<code>PowerShell</code>、<code>Windows PowerShell</code>，macOS、Linux 有 <code>bash</code>，Android 可以使用 <a href="https://github.com/termux/termux-app">Termux</a>，也相当于是 Linux 了——有关 Termux 的配置详见 <a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a>。</p><p>macOS 和 Linux 的关系更近，总之都能使用 <code>zsh</code> 而不是 <code>bash</code> 作为 shell，有关 <code>zsh</code> 的配置参见 <a href="https://www.mintimate.cn/2021/02/05/configZsh">这篇文章</a>。</p><p><code>zsh</code> 相比 <code>bash</code> 能提供命令行历史补全的功能，在 Windows 上，这需要下载 <a href="https://github.com/microsoft/PowerToys">PowerToys</a> 并启用里面的 <code>未找到命令</code> 功能——看起来命令行补全是 <code>PowerShell</code> 的功能，但总之这样配置之后就没问题。</p><p>在 macOS 上，自带的终端并没有那么“好看”，总之转用了 <a href="https://iterm2.com">iTerm2</a>，相关的配置略。</p><h2 id="奔向-SSH">奔向 SSH</h2><p>在购入了 Mac mini 后，除了写 SwiftUI 外，也想用 Mac mini 做些别的什么——我是用不来 macOS，操作逻辑相比 Windows 总是有太多别扭的地方，我是应该还会把 Windows 作为主要的开发环境的。</p><p>于是看视频，了解到 Mac mini 可以作为软路由、NAS、服务器……诶，服务器。</p><p>正好最近在玩 Minecraft，而 Mac mini 完全适合 Minecraft 开服——其实就是我想试试看，总之能分担一下我这台 Windows 笔记本的压力吧，让 Mac mini 专心逻辑处理，Windows 笔记本专心渲染。</p><p>这就牵扯到远程操作了——这其实不算“远程”，只在内网操作嘛，但——我曾经发病莫名其妙的购买阿里云的服务器，完全不了解自己为什么要用、该怎么去用服务器，总之我确实对 SSH 连接这一步有印象。</p><p>具体开启 SSH 的流程就不在此赘述了，现在再来谈个别的事。</p><p>SSH 支持免密登录，总之使用 GPG 的非对称加密——我其实对椭圆曲线的数学性质特别感兴趣，但目前找到的一些资料都是用到了抽象代数的方法的那种，没有传统解析几何的那种解释。</p><blockquote><p>加密：公钥加密，私钥解密<br>公钥公开，任何公钥持有者都可以将想要发送给私钥持有者的信息进行加密后发送，这个信息只有私钥持有者能解密。</p><p>签名：私钥加密，公钥解密<br>公钥公开，任何持有公钥的人都能解密私钥加密过的密文，这个过程并不能保证消息的安全性，但是它却能保证消息来源的准确性和不可否认性，也就是说，如果使用公钥能正常解密某一个密文，那么就能证明这段密文一定是由私钥持有者发布的，而不是其他第三方发布的，并且私钥持有者不能否认他曾经发布过该消息。</p></blockquote><h2 id="奔向-PowerShell">奔向 PowerShell</h2><p>配置好 Windows 和 macOS 上的 SSH 服务后，成功使用 Windows 远程连接到 macOS，相对应的，macOS 也可以远程连接到 Windows，但是远程连接后默认进入的 shell 居然是 <code>cmd</code>，这个实在是有点搞笑了。</p><p><a href="https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows">SSH 连接 Windows 默认启用 PowerShell</a></p><p><a href="https://whlit.github.io/linux/wsl-default-dir.html">WSL 默认目录</a></p><p>如上配置好后，尽情使用 SSH 带来的便利吧。</p><h2 id="BUG">BUG</h2><p>是的，从 Windows 访问 macOS 使用 <code>ls/ll</code> 命令列出含有中文文件的文件夹内容时，会有如下的乱码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">➜  mods git:(main) ✗ ll</span><br><span class="line">total 80440</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   2.0M Oct 28 04:33 ???Fabric API???fabric-api-0.92.2+1.20.1.jar</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   6.3M Oct 28 04:50 ???Kotlin ?????????fabric-language-kotlin-1.9.5+kotlin.1.8.22.jar</span><br><span class="line">-rw-r--r--  1 cierra_runis  staff   533K Oct 28 05:15 ???Masa ????????????malilib-fabric-1.20.1-0.16.3.jar</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p>答案是去 <code>.zsh_rc</code> 里取消如下的注释，使 <code>LANG</code> 得以固定为 <code>en_US.UTF-8</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># You may need to manually set your language environment</span></span><br><span class="line"><span class="built_in">export</span> LANG=en_US.UTF-8</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -209,11 +209,11 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 编程 </tag>
             
             <tag> Flutter </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -450,11 +450,11 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 编程 </tag>
             
             <tag> Flutter </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -499,11 +499,11 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th style="text-align:center">头像</th><th style="text-align:center">链接</th></tr></thead><tbody><tr><td style="text-align:center"><img src="https://www.kablog.top/images/avatar.jpg" width="96px" height="96px" alt="咖酱"/></td><td style="text-align:center"><a href="https://www.kablog.top/">咖酱の博客</a></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -521,11 +521,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<table><thead><tr><th style="text-align:center">头像</th><th style="text-align:center">链接</th></tr></thead><tbody><tr><td style="text-align:center"><img src="https://www.kablog.top/images/avatar.jpg" width="96px" height="96px" alt="咖酱"/></td><td style="text-align:center"><a href="https://www.kablog.top/">咖酱の博客</a></td></tr></tbody></table>]]></content>
       
     </entry>
     

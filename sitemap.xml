@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://note-of-me.top/posts/4691/</loc>
+    <loc>https://note-of-me.top/posts/22/</loc>
     
     <lastmod>2024-12-02</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/posts/22/</loc>
+    <loc>https://note-of-me.top/posts/4691/</loc>
     
     <lastmod>2024-12-02</lastmod>
     
@@ -263,13 +263,6 @@
 
   
   <url>
-    <loc>https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://note-of-me.top/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -341,6 +334,13 @@
   
   <url>
     <loc>https://note-of-me.top/tags/social/</loc>
+    <lastmod>2024-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
