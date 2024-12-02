@@ -61,4 +61,9 @@ total 80440
 ...
 ```
 
-暂时还不知道为什么会出现乱码，照理说都是 `UTF-8` 编码啊。总之以后再去查查，现在并没有很影响。
+答案是去 `.zsh_rc` 里取消如下的注释，使 `LANG` 得以固定为 `en_US.UTF-8`：
+
+```bash
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+```
