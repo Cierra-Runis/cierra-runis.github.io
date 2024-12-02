@@ -13,7 +13,8 @@ Swift 和 [Kotlin](https://kotlinlang.org/) 非常相似，创新了一些比较
 
 ```dart
 callFunction(parma1, (value) {
-  final value2 = value * 2; print(value2)
+  final value2 = value * 2;
+  print(value2);
 });
 ```
 

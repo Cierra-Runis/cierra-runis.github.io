@@ -38,6 +38,27 @@ SSH 支持免密登录，总之使用 GPG 的非对称加密——我其实对�
 > 签名：私钥加密，公钥解密
 > 公钥公开，任何持有公钥的人都能解密私钥加密过的密文，这个过程并不能保证消息的安全性，但是它却能保证消息来源的准确性和不可否认性，也就是说，如果使用公钥能正常解密某一个密文，那么就能证明这段密文一定是由私钥持有者发布的，而不是其他第三方发布的，并且私钥持有者不能否认他曾经发布过该消息。
 
+## 奔向 PowerShell
+
+配置好 Windows 和 macOS 上的 SSH 服务后，成功使用 Windows 远程连接到 macOS，相对应的，macOS 也可以远程连接到 Windows，但是远程连接后默认进入的 shell 居然是 `cmd`，这个实在是有点搞笑了。
+
 [SSH 连接 Windows 默认启用 PowerShell](https://learn.microsoft.com/zh-cn/windows-server/administration/OpenSSH/openssh-server-configuration#configuring-the-default-shell-for-openssh-in-windows)
 
 [WSL 默认目录](https://whlit.github.io/linux/wsl-default-dir.html)
+
+如上配置好后，尽情使用 SSH 带来的便利吧。
+
+## BUG
+
+是的，从 Windows 访问 macOS 使用 `ls/ll` 命令列出含有中文文件的文件夹内容时，会有如下的乱码：
+
+```bash
+➜  mods git:(main) ✗ ll
+total 80440
+-rw-r--r--  1 cierra_runis  staff   2.0M Oct 28 04:33 ???Fabric API???fabric-api-0.92.2+1.20.1.jar
+-rw-r--r--  1 cierra_runis  staff   6.3M Oct 28 04:50 ???Kotlin ?????????fabric-language-kotlin-1.9.5+kotlin.1.8.22.jar
+-rw-r--r--  1 cierra_runis  staff   533K Oct 28 05:15 ???Masa ????????????malilib-fabric-1.20.1-0.16.3.jar
+...
+```
+
+暂时还不知道为什么会出现乱码，照理说都是 `UTF-8` 编码啊。总之以后再去查查，现在并没有很影响。
