@@ -804,8 +804,8 @@ beautify:
 font:
   global_font_size:
   code_font_size:
-  font_family:
-  code_font_family:
+  font-family: Torus, MiSans, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif
+  code-font-family: Cascadia Code, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft JhengHei", sans-serif
 
 # Font settings for the site title and site subtitle
 blog_title_font:
