@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Python 包与 email 提醒 | ノート of 我</title><meta name="author" content="Cierra Runis"><meta name="copyright" content="Cierra Runis"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="缘起 在使用 python 写监听器的时候经常使用邮件提醒监听器变化，一开始就是简单一句话提醒就行，后面想着这玩意应该能和自己以前收到的邮件一样好看，所以开始试着发送 html 格式而不是纯文本的邮件，经过一番折腾，最后搞出来了个 python 包 listener_email 。 问题 参考了苹果购物详情邮件：  可是在修改过程中发现各个平台显示出的结果都不一样，其中：  QQ 邮箱网页版支持最">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python 包与 email 提醒">
-<meta property="og:url" content="https://note-of-me.top/posts/11399/index.html">
+<meta property="og:url" content="https://note-of-me.top/posts/11399/">
 <meta property="og:site_name" content="ノート of 我">
 <meta property="og:description" content="缘起 在使用 python 写监听器的时候经常使用邮件提醒监听器变化，一开始就是简单一句话提醒就行，后面想着这玩意应该能和自己以前收到的邮件一样好看，所以开始试着发送 html 格式而不是纯文本的邮件，经过一番折腾，最后搞出来了个 python 包 listener_email 。 问题 参考了苹果购物详情邮件：  可是在修改过程中发现各个平台显示出的结果都不一样，其中：  QQ 邮箱网页版支持最">
 <meta property="og:locale" content="zh_CN">
@@ -13,7 +13,7 @@
 <meta property="article:tag" content="email">
 <meta property="article:tag" content="编程">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://note-of-me.top/img/default_cover.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://note-of-me.top/posts/11399/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+<meta name="twitter:image" content="https://note-of-me.top/img/default_cover.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://note-of-me.top/posts/11399/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
     (() => {
       
     const saveToLocal = {

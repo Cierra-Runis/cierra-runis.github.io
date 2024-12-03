@@ -1,109 +1,109 @@
 @font-face {
   font-family: 'Torus';
   font-weight: 100;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-Thin.daca2c7e.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-Thin.daca2c7e.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 600;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-SemiBold.d263d500.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-SemiBold.d263d500.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 700;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-SemiBold.d263d500.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-SemiBold.d263d500.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 400;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-Regular.734ed3ae.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-Regular.734ed3ae.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 300;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-Light.8d3ecae8.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-Light.8d3ecae8.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 900;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-Heavy.7dc2d96b.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-Heavy.7dc2d96b.otf);
 }
 
 @font-face {
   font-family: 'Torus';
   font-weight: 800;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/Torus-Bold.c233ce17.otf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/Torus-Bold.c233ce17.otf);
 }
 
 @font-face {
   font-family: 'Cascadia Code';
   font-weight: normal;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/CascadiaCode.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/CascadiaCode.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 100;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Thin.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Thin.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 200;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-ExtraLight.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 300;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Light.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Light.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 400;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Normal.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Normal.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 500;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Regular.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Regular.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 600;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Medium.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Medium.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 700;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-DemiBold.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-DemiBold.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 800;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-SemiBold.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-SemiBold.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 900;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Bold.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Bold.ttf);
 }
 
 @font-face {
   font-family: 'MiSans';
   font-weight: 1000;
-  src: url(https://github.com/Cierra-Runis/cierra-runis.github.io/tree/master/source/fonts/MiSans-Heavy.ttf);
+  src: url(https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io/refs/heads/master/source/fonts/MiSans-Heavy.ttf);
 }
 
 .cjk_fallback {

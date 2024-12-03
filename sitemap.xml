@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/link/index.html</loc>
+    <loc>https://note-of-me.top/link/</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/zeus/index.html</loc>
+    <loc>https://note-of-me.top/zeus/</loc>
     
     <lastmod>2024-03-26</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/flutter/index.html</loc>
+    <loc>https://note-of-me.top/flutter/</loc>
     
     <lastmod>2024-01-06</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/categories/index.html</loc>
+    <loc>https://note-of-me.top/categories/</loc>
     
     <lastmod>2023-09-30</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/index.html</loc>
+    <loc>https://note-of-me.top/tags/</loc>
     
     <lastmod>2023-09-30</lastmod>
     
@@ -284,20 +284,6 @@
   </url>
   
   <url>
-    <loc>https://note-of-me.top/tags/Flutter/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://note-of-me.top/tags/React-Native/</loc>
-    <lastmod>2024-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://note-of-me.top/tags/python/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>https://note-of-me.top/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/Flutter/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://note-of-me.top/tags/React-Native/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
