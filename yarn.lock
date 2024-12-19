@@ -1320,7 +1320,7 @@ __metadata:
     hexo-server: "npm:^3.0.0"
     hexo-theme-landscape: "npm:^1.0.0"
     hexo-wordcount: "npm:^6.0.1"
-    katex: "npm:^0.16.11"
+    katex: "npm:^0.16.18"
     markdown-it-katex: "npm:^2.0.3"
   languageName: unknown
   linkType: soft
@@ -1738,14 +1738,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"katex@npm:^0.16.11":
-  version: 0.16.11
-  resolution: "katex@npm:0.16.11"
+"katex@npm:^0.16.18":
+  version: 0.16.18
+  resolution: "katex@npm:0.16.18"
   dependencies:
     commander: "npm:^8.3.0"
   bin:
     katex: cli.js
-  checksum: 10c0/be405d45d7228bbfeecd491e0f74d9da0066b5e7b457e3f1dc833de5b63f9e98e40d2ef6b46e1cbe577490a43338c043851da032c45aeec0cc03ad431ef6fd83
+  checksum: 10c0/f80844710ae28d435395df522cf2439ce1be240cb5e7196e569e16459f705c232cd1335ff96bb6a76a3a87962ddebeb7e212e25271f11ad8f80a30dec575ba53
   languageName: node
   linkType: hard
 
